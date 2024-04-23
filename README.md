@@ -4,6 +4,10 @@
 
 This application is meant to be self-hosted for personal use. You can utilize it however you see fit.
 
+![Screenshot](./Screenshot%20from%202024-04-23%2016-10-46.png)
+
+
+
 ## Installation
 
 1. Clone this repository to your local machine.
@@ -19,7 +23,5 @@ To start the app using `pnpm dev`:
 3. Run `pnpm dev`.
 4. The app should now be running locally. You can access it by navigating to `http://localhost:3000` in your web browser.
 
-## Screenshots
 
-![Screenshot](./Screenshot%20from%202024-04-23%2016-10-46.png)
 
