@@ -1,0 +1,810 @@
+[
+    {
+        "question": "Which layer of the OSI model establishes, manages, and terminates connections between applications?",
+        "options": ["Application", "Session", "Network", "Presentation"],
+        "correctAnswer": "Session"
+    },
+    {
+        "question": "Which OSI layer is responsible for data formatting and encryption?",
+        "options": ["Presentation", "Data Link", "Transport", "Network"],
+        "correctAnswer": "Presentation"
+    },
+    {
+        "question": "OSI layer is responsible for the physical connection between devices and the transmission of raw bits over a communication channel?",
+        "options": ["Data Link", "Network", "Transport", "Physical"],
+        "correctAnswer": "Physical"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for providing services directly to user applications and is the closest to the end-user?",
+        "options": ["Physical", "Data Link", "Session", "Application"],
+        "correctAnswer": "Application"
+    },
+    {
+        "question": "Which network device is used to connect multiple network segments and direct data packets based on their IP addresses?",
+        "options": ["Switch", "Hub", "Router", "Firewall"],
+        "correctAnswer": "Router"
+    },
+    {
+        "question": "Which type of cabling is commonly used for carrying broadband signals such as cable television but can also be used in data networks?",
+        "options": ["Fiber Optic", "Coaxial", "Twisted Pair", "Ethernet"],
+        "correctAnswer": "Coaxial"
+    },
+    {
+        "question": "Which device works with MAC addresses?",
+        "options": ["Switch", "Router", "Hub", "Bridge"],
+        "correctAnswer": "Switch"
+    },
+    {
+        "question": "In a structured cabling system, what is the purpose of using UTP cables ranging from Cat3 to Cat6a?",
+        "options": [
+            "To connect different network devices within a building or campus",
+            "To connect devices across long distances",
+            "To provide power to network devices",
+            "To connect to wireless access points"
+        ],
+        "correctAnswer": "To connect different network devices within a building or campus"
+    },
+    {
+        "question": "Which command-line tool is used to display the IP configuration for all network interfaces on a Windows system?",
+        "options": ["ping", "tracert", "ipconfig", "netstat"],
+        "correctAnswer": "ipconfig"
+    },
+    {
+        "question": "Which command-line tool is used to resolve hostnames to IP addresses and vice versa?",
+        "options": ["ping", "tracert", "nslookup", "netstat"],
+        "correctAnswer": "nslookup"
+    },
+    {
+        "question": "Which command-line tool is used to view a computer's current connections, active sessions, and ports?",
+        "options": ["ping", "tracert", "nslookup", "netstat"],
+        "correctAnswer": "netstat"
+    },
+    {
+        "question": "Which command-line tool is used to display the Media Access Control (MAC) address-to-IP address mapping on a local network?",
+        "options": ["ping", "tracert", "nslookup", "arp"],
+        "correctAnswer": "arp"
+    },
+    {
+        "question": "What type of network is designed to interconnect devices like laptops, smartphones, tablets, and headphones in close proximity, typically within a range of a few meters?",
+        "options": [
+            "Local Area Network (LAN)",
+            "Personal Area Network (PAN)",
+            "Wide Area Network (WAN)",
+            "Metropolitan Area Network (MAN)"
+        ],
+        "correctAnswer": "Personal Area Network (PAN)"
+    },
+    {
+        "question": "Which network type is designed to cover a relatively small geographic area, such as a single department, floor, or building, and typically operates at high data transfer rates?",
+        "options": [
+            "Local Area Network (LAN)",
+            "Personal Area Network (PAN)",
+            "Wide Area Network (WAN)",
+            "Metropolitan Area Network (MAN)"
+        ],
+        "correctAnswer": "Local Area Network (LAN)"
+    },
+    {
+        "question": "Which network type is commonly associated with connecting LANs from multiple buildings into a single connected network?",
+        "options": [
+            "Local Area Network (LAN)",
+            "Personal Area Network (PAN)",
+            "Wide Area Network (WAN)",
+            "Metropolitan Area Network (MAN)"
+        ],
+        "correctAnswer": "Campus Area Network (CAN)"
+    },
+    {
+        "question": "Which network topology offers high fault tolerance because it has multiple paths for data to travel, reducing the risk of network failure?",
+        "options": ["Bus", "Ring", "Mesh", "Star"],
+        "correctAnswer": "Mesh"
+    },
+    {
+        "question": "In a _____ network topology, all devices are connected to a central hub or switch, making it easy to add or remove devices, but if the central hub fails, the entire network can go down.",
+        "options": ["Bus", "Ring", "Mesh", "Star"],
+        "correctAnswer": "Star"
+    },
+    {
+        "question": "What is the name of the network topology where each device is connected to a central cable, and if the cable is severed, communication is disrupted?",
+        "options": ["Bus", "Ring", "Mesh", "Star"],
+        "correctAnswer": "Bus"
+    },
+    {
+        "question": "Which network topology forms a closed loop where each device is connected to exactly two other devices, allowing data to circulate in one direction, making it suitable for applications that require equal access to the network?",
+        "options": ["Bus", "Ring", "Mesh", "Star"],
+        "correctAnswer": "Ring"
+    },
+    {
+        "question": "What architectural model entails multiple devices making requests for services or resources from a central server, often referred to as the main resource provider?",
+        "options": [
+            "Client-server",
+            "Peer-to-peer",
+            "Distributed",
+            "Centralized"
+        ],
+        "correctAnswer": "Client-server"
+    },
+    {
+        "question": "In which architecture do devices communicate and share resources directly with each other, without a central server or intermediary?",
+        "options": [
+            "Client-server",
+            "Peer-to-peer",
+            "Distributed",
+            "Centralized"
+        ],
+        "correctAnswer": "Peer-to-peer"
+    },
+    {
+        "question": "XYZ Corp. Is hosting a website through Amazon Web Services (AWS). The data that is collected from the website is stored on a server in XYZ’s privately owned data center. Which type of cloud deployment model is this?",
+        "options": [
+            "Public Cloud",
+            "Private Cloud",
+            "Hybrid Cloud",
+            "Community Cloud"
+        ],
+        "correctAnswer": "Hybrid Cloud"
+    },
+    {
+        "question": "If an organization wants to manage all of their cloud resources in a data center that is owned and maintained by that organization, which type of cloud deployment are they using?",
+        "options": [
+            "Public Cloud",
+            "Private Cloud",
+            "Hybrid Cloud",
+            "Community Cloud"
+        ],
+        "correctAnswer": "Private Cloud"
+    },
+    {
+        "question": "A System Administrator for an organization needs to install software on user’s laptops to allow them to interface with VM’s on a remote server. Which type of software is the System Admin installing to make this possible?",
+        "options": [
+            "Type 1 (Bare-metal) Hypervisor",
+            "Type 2 (Hosted) Hypervisor",
+            "Virtual Private Network (VPN)",
+            "Remote Desktop Protocol (RDP)"
+        ],
+        "correctAnswer": "Type 2 (Hosted) Hypervisor"
+    },
+    {
+        "question": "A corporation is using Microsoft Outlook for its email service/exchange. In addition to the Outlook application itself, the physical servers, storage, operating systems, virtual networks, physical networks, and hypervisors that host the application are also maintained by Microsoft. Which type of Cloud Service Model is being used in this scenario?",
+        "options": [
+            "Infrastructure as a Service (IaaS)",
+            "Platform as a Service (PaaS)",
+            "Software as a Service (SaaS)",
+            "Function as a Service (FaaS)"
+        ],
+        "correctAnswer": "Software as a Service (SaaS)"
+    },
+
+    {
+        "question": "Which type of firewall initiates a new connection on behalf of the client and presents its own IP to the server when a client initiates a connection to a server?",
+        "options": ["Stateful", "Circuit level", "Proxy", "Application level"],
+        "correctAnswer": "Proxy"
+    },
+    {
+        "question": "Which feature of a firewall allows an organization to use private non-routable networks while enabling communication to the internet?",
+        "options": [
+            "NAT",
+            "Port address translation (PAT)",
+            "VPN",
+            "Intrusion Prevention"
+        ],
+        "correctAnswer": "Port address translation (PAT)"
+    },
+    {
+        "question": "What is the meaning of “state” when referring to stateful inspection in firewalls?",
+        "options": [
+            "It refers to the current status of the firewall's operation.",
+            "It refers to the two firewall rules needed, one for the sender and one for the recipient.",
+            "It refers to the state of network traffic at a specific point in time.",
+            "It refers to the state of network connections being tracked by the firewall."
+        ],
+        "correctAnswer": "It refers to the state of network connections being tracked by the firewall."
+    },
+    {
+        "question": "What can a user install to detect malicious software?",
+        "options": [
+            "Antivirus software",
+            "Firewall",
+            "VPN",
+            "Intrusion Detection System"
+        ],
+        "correctAnswer": "Antivirus software"
+    },
+    {
+        "question": "Which feature of a network intrusion prevention system (NIPS) uses a list of known bad IP addresses to protect the network?",
+        "options": [
+            "Reputation-based filtering",
+            "Signature-based detection",
+            "Behavioral analysis",
+            "Anomaly detection"
+        ],
+        "correctAnswer": "Reputation-based filtering"
+    },
+    {
+        "question": "Which attack tricks a client into mapping an IP address to a spoofed MAC address?",
+        "options": [
+            "ARP spoofing",
+            "DNS spoofing",
+            "MAC flooding",
+            "IP spoofing"
+        ],
+        "correctAnswer": "ARP spoofing"
+    },
+    {
+        "question": "Which type of port has access to all VLANs by default in a traditional layer 2 switch?",
+        "options": [
+            "Access port",
+            "Trunk port",
+            "Tagged port",
+            "Untagged port"
+        ],
+        "correctAnswer": "Trunk port"
+    },
+    {
+        "question": "A company provides access to employees' tax and personal information via a public-facing web portal. What should the company implement to encrypt employees' web access to this information?",
+        "options": ["HTTPS", "SSL", "IPsec", "Transport layer security (TLS)"],
+        "correctAnswer": "Transport layer security (TLS)"
+    },
+    {
+        "question": "What is end-to-end encryption?",
+        "options": [
+            "Data is encrypted at every network node it passes through.",
+            "Data is encrypted on the sender's system and only the recipient is able to decrypt it.",
+            "Data is encrypted using a symmetric key algorithm.",
+            "Data is encrypted using a public key algorithm."
+        ],
+        "correctAnswer": "Data is encrypted on the sender's system and only the recipient is able to decrypt it."
+    },
+    {
+        "question": "Which phrase describes unencrypted data?",
+        "options": ["In the clear", "Obfuscated", "Ciphered", "Enciphered"],
+        "correctAnswer": "In the clear"
+    },
+    {
+        "question": "Which type of wireless security protocol is the most secure?",
+        "options": ["WEP", "WPA", "WPA2 + TKIP", "WPA2 + AES"],
+        "correctAnswer": "WPA2 + AES"
+    },
+    {
+        "question": "Which statement is true when comparing AES encryption to Triple DES (3DES)?",
+        "options": [
+            "AES requires less CPU utilization and uses a larger block size than 3DES.",
+            "AES requires more CPU utilization and uses a smaller block size than 3DES.",
+            "AES and 3DES have similar CPU utilization and block sizes.",
+            "AES is less secure than 3DES due to its smaller block size."
+        ],
+        "correctAnswer": "AES requires less CPU utilization and uses a larger block size than 3DES."
+    },
+    {
+        "question": "What is the best defense against fake access attacks?",
+        "options": [
+            "Implement strong encryption",
+            "Use secure passwords",
+            "Enable multi-factor authentication",
+            "Never use unsecured Wi-Fi hotspots"
+        ],
+        "correctAnswer": "Never use unsecured Wi-Fi hotspots"
+    },
+    {
+        "question": "Which cloud feature is used to prevent data loss and provide for data retrieval in the event of a disaster?",
+        "options": [
+            "Data encryption",
+            "Data replication",
+            "Data backups and archives",
+            "Data mirroring"
+        ],
+        "correctAnswer": "Data backups and archives"
+    },
+    {
+        "question": "Which cloud-hosting model provides exclusive cloud access for a single company?",
+        "options": [
+            "Public cloud",
+            "Private cloud",
+            "Community cloud",
+            "Hybrid cloud"
+        ],
+        "correctAnswer": "Private cloud"
+    },
+    {
+        "question": "What should a cloud provider use to secure data in flight?",
+        "options": [
+            "Firewall",
+            "Public key encryption",
+            "Private key encryption",
+            "Data encryption"
+        ],
+        "correctAnswer": "Private key encryption"
+    },
+    {
+        "question": "An administrator fails to configure protection for usernames and passwords transmitted across the network. Which component of the AAA model is weakened?",
+        "options": [
+            "Authentication",
+            "Authorization",
+            "Accounting",
+            "Access control"
+        ],
+        "correctAnswer": "Authentication"
+    },
+    {
+        "question": "A user is mistakenly granted access to customer accounts not required for his duties. Which component of the AAA model is violated?",
+        "options": [
+            "Authentication",
+            "Authorization",
+            "Accounting",
+            "Access control"
+        ],
+        "correctAnswer": "Authorization"
+    },
+    {
+        "question": "Which network device is usually placed in-line between a trusted network and an untrusted network?",
+        "options": ["Switch", "Router", "Firewall", "Hub"],
+        "correctAnswer": "Firewall"
+    },
+    {
+        "question": "Which type of firewall technology reads and analyzes the actual content of a message before forwarding it to its destination?",
+        "options": [
+            "Stateful inspection",
+            "Packet filtering",
+            "Application-level gateway",
+            "Proxy servers"
+        ],
+        "correctAnswer": "Proxy servers"
+    },
+    {
+        "question": "An organization’s IT department is concerned that malicious insiders may be using elevated access rights. Which security control can be used to draw attacks away from critical systems?",
+        "options": [
+            "Firewalls",
+            "Intrusion Detection Systems",
+            "Honeypots",
+            "Access control lists"
+        ],
+        "correctAnswer": "Honeypots"
+    },
+
+    {
+        "question": "An employee that does not want to miss emails from an important client sets up her cellular smartphone to allow her to check email. Unfortunately, she does not install antivirus software on the cellular phone. What type of vulnerability is represented?",
+        "options": ["BYOD/Mobile", "Phishing", "Malware", "Zero-day"],
+        "correctAnswer": "BYOD/Mobile"
+    },
+    {
+        "question": "What is the definition of vulnerability, in computer security?",
+        "options": [
+            "It is a weakness which can be exploited by a threat, such as an attacker, to perform unauthorized actions within a computer system.",
+            "It is a malicious software program designed to disrupt, damage, or gain unauthorized access to a computer system.",
+            "It is a technique used by cybercriminals to gain access to sensitive information by tricking individuals into providing it.",
+            "It is the process of encoding data to prevent unauthorized access."
+        ],
+        "correctAnswer": "It is a weakness which can be exploited by a threat, such as an attacker, to perform unauthorized actions within a computer system."
+    },
+    {
+        "question": "What is required to establish a secure connection to a remote network over an insecure link?",
+        "options": [
+            "Firewall",
+            "Antivirus software",
+            "Virtual Private Network (VPN) service",
+            "Intrusion Detection System (IDS)"
+        ],
+        "correctAnswer": "Virtual Private Network (VPN) service"
+    },
+    {
+        "question": "An organization is concerned about brute force attacks. How should the organization counter this risk?",
+        "options": [
+            "Implement a system hardening policy that ensures operating system updates and software patches are installed regularly.",
+            "Enforce strong password policies requiring complex passwords that are changed frequently.",
+            "Implement multi-factor authentication (MFA) for all user accounts.",
+            "Institute a log-in policy that locks users out of an account after three failed password attempts."
+        ],
+        "correctAnswer": "Institute a log-in policy that locks users out of an account after three failed password attempts."
+    },
+    {
+        "question": "An organization suffers a social engineering attack that results in a cybercriminal gaining access to its networks and to its customers’ private information. How can the organization mitigate this risk in the future?",
+        "options": [
+            "Implement a system hardening policy that ensures operating system updates and software patches are installed regularly.",
+            "Provide regular cybersecurity training for employees",
+            "Enforce strong password policies requiring complex passwords that are changed frequently.",
+            "Implement multi-factor authentication (MFA) for all user accounts."
+        ],
+        "correctAnswer": "Provide regular cybersecurity training for employees"
+    },
+    {
+        "question": "An attacker plans to exploit flaws in an operating system to gain access to a user's computer system. What is a prevention mechanism for this type of attack?",
+        "options": ["Firewall", "Antivirus software", "Patching", "Encryption"],
+        "correctAnswer": "Patching"
+    },
+    {
+        "question": "An unauthorized third-party has gained access to a company network. How can they be prevented from deleting data?",
+        "options": [
+            "Implement access controls",
+            "Install antivirus software",
+            "Enable firewall rules",
+            "Implement network segmentation"
+        ],
+        "correctAnswer": "Access controls"
+    },
+    {
+        "question": "An attacker has gained access to the passwords of several employees of a company through a brute force attack. Which authentication method would keep the attacker from accessing the employees’ devices?",
+        "options": [
+            "Single-factor authentication",
+            "Biometric authentication",
+            "MFA (multi factor authorization)",
+            "PIN authentication"
+        ],
+        "correctAnswer": "MFA (multi factor authorization)"
+    },
+    {
+        "question": "After downloading a CD/DVD burning program, a user notices that someone is remotely accessing the computer during nighttime hours. Which type of malware is likely found in the CD/DVD software?",
+        "options": ["Adware", "Spyware", "Trojan horse", "Ransomware"],
+        "correctAnswer": "Trojan horse"
+    },
+    {
+        "question": "A user is working on a home computer when another user seems to open an application to view documents on the same computer. The user immediately suspects that a back door into the computer exists. Which action should be taken first to deal with the problem?",
+        "options": [
+            "Run antivirus scan",
+            "Disconnect the computer from the network",
+            "Unplug the PC’s network connection",
+            "Reboot the computer in safe mode"
+        ],
+        "correctAnswer": "Unplug the PC’s network connection"
+    },
+    {
+        "question": "A user receives an email from an unknown bank saying that the user’s account with the bank has been compromised. The user suspects that this is a phishing exploit. How should the user safely proceed?",
+        "options": [
+            "Click on any links provided in the email",
+            "Reply to the email with account details",
+            "Open a new browser page, navigate to the bank’s website, and acquire legitimate contact information to report the email",
+            "Forward the email to all contacts in the address book"
+        ],
+        "correctAnswer": "Open a new browser page, navigate to the bank’s website, and acquire legitimate contact information to report the email"
+    },
+    {
+        "question": "A malicious user was able to lock a user's account after guessing the user's password multiple times unsuccessfully. Which category of the CIA triad did the malicious user target in this attack?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Availability"
+    },
+    {
+        "question": "Which category of the CIA triad is affected when an unauthorized user changes the data within a read-only file?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Integrity"
+    },
+    {
+        "question": "An analyst has identified an active denial of service attack. Which category of the CIA triad is affected?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Availability"
+    },
+    {
+        "question": "While investigating a security incident, a technician discovers an unauthorized packet-capturing tool on the network. Which category of the CIA triad is being attacked?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Confidentiality"
+    },
+
+    {
+        "question": "Which OSI layer is related to the function of the IP protocol suite?",
+        "options": ["Data link", "Transport", "Network", "Session"],
+        "correctAnswer": "Network"
+    },
+    {
+        "question": "Which OSI layer is responsible for organizing how bits are passed over the physical layer between devices within the same collision domain?",
+        "options": ["Physical", "Data link", "Network", "Transport"],
+        "correctAnswer": "Data link"
+    },
+    {
+        "question": "Which OSI layer would define the scope of a protocol that makes sure packets of data are received correctly and resends them if they are not?",
+        "options": ["Session", "Transport", "Network", "Data link"],
+        "correctAnswer": "Transport"
+    },
+    {
+        "question": "Which protocol suite performs functions of OSI layer 4?",
+        "options": ["HTTP", "FTP", "TCP", "IP"],
+        "correctAnswer": "TCP"
+    },
+    {
+        "question": "Which type of Ethernet cable can maintain 10Gbps transmission speeds through the course of its maximum 100-meter length?",
+        "options": ["CAT 5e", "CAT 6", "CAT 6a", "CAT 7"],
+        "correctAnswer": "CAT 6a"
+    },
+    {
+        "question": "Which Internet access technology uses ordinary telephone wires for data transmission?",
+        "options": ["Cable", "DSL", "Fiber", "Satellite"],
+        "correctAnswer": "DSL"
+    },
+    {
+        "question": "Which device is used to organize network cables as they run between switches and other network devices?",
+        "options": ["Hub", "Router", "Switch", "Patch panel"],
+        "correctAnswer": "Patch panel"
+    },
+    {
+        "question": "Which network device is used to connect two or more network segments by performing OSI layer 3 functions like packet-forwarding?",
+        "options": ["Switch", "Bridge", "Router", "Gateway"],
+        "correctAnswer": "Router"
+    },
+    {
+        "question": "Which network device is used to convert between digital information from a LAN and analog signals for transmission over a standard telephone wire?",
+        "options": ["Switch", "Router", "Modem", "Firewall"],
+        "correctAnswer": "Modem"
+    },
+    {
+        "question": "Which device could be used to send commands to the mainframe for remote execution in early mainframe installations?",
+        "options": [
+            "Dumb terminals",
+            "Thin clients",
+            "Smartphones",
+            "Personal computers"
+        ],
+        "correctAnswer": "Dumb terminals"
+    },
+    {
+        "question": "Which device is responsible for implementing network address translation (NAT)?",
+        "options": ["Hub", "Router", "Switch", "Firewall"],
+        "correctAnswer": "Router"
+    },
+    {
+        "question": "Which command produces the following output?\nNon-authoritative answer:\nName: www.google.com\nAddress: 172.217.11.132",
+        "options": ["ping", "ipconfig", "tracert", "nslookup"],
+        "correctAnswer": "nslookup"
+    },
+    {
+        "question": "Which command should be used to manually enter the default gateway for a computer?",
+        "options": ["netstat", "arp", "ping", "route"],
+        "correctAnswer": "route"
+    },
+    {
+        "question": "Which network diagnostic tool displays the path packets take between two endpoints?",
+        "options": ["netstat", "ping", "tracert", "route"],
+        "correctAnswer": "tracert"
+    },
+    {
+        "question": "Which network type is used to wire multiple PCs to a home router?",
+        "options": ["WAN", "LAN", "MAN", "CAN"],
+        "correctAnswer": "LAN"
+    },
+    {
+        "question": "An office's infrastructure connects network devices and printers through a central access point without the use of cabling. Which network type does this office use?",
+        "options": ["LAN", "WAN", "MAN", "WLAN"],
+        "correctAnswer": "WLAN"
+    },
+    {
+        "question": "What type of medium is commonly used within a 1000 Mbps Ethernet network?",
+        "options": ["CAT3", "CAT5", "CAT5e", "CAT6"],
+        "correctAnswer": "CAT5e"
+    },
+    {
+        "question": "Which network topology is shown in the following diagram?",
+        "options": ["Star", "Bus", "Ring", "Full mesh"],
+        "correctAnswer": "Full mesh"
+    },
+    {
+        "question": "Which network topology is being implemented when each node connects to exactly two other nodes, forming a single continuous pathway for signals through each node?",
+        "options": ["Bus", "Ring", "Mesh", "Star"],
+        "correctAnswer": "Ring"
+    },
+    {
+        "question": "In which physical LAN topology are nodes connected to each other with a backbone cable that loops around and ends at the same point it started?",
+        "options": ["Ring", "Mesh", "Bus", "Star"],
+        "correctAnswer": "Ring"
+    },
+    {
+        "question": "Which OSI layer ensures error-free packets?",
+        "options": ["Physical", "Data link", "Network", "Transport"],
+        "correctAnswer": "Transport"
+    },
+    {
+        "question": "Which topology uses a switch or hub to connect to all devices in the same network?",
+        "options": ["Star", "Ring", "Mesh", "Bus"],
+        "correctAnswer": "Star"
+    },
+    {
+        "question": "Which cloud service provides hardware, operating systems, and web servers but not end-user applications?",
+        "options": [
+            "Software as a Service (SaaS)",
+            "Platform as a Service (PaaS)",
+            "Infrastructure as a Service (IaaS)",
+            "Function as a Service (FaaS)"
+        ],
+        "correctAnswer": "Infrastructure as a Service (IaaS)"
+    },
+    {
+        "question": "Which cloud model provides an exclusive cloud computing service environment that is shared between two or more organizations?",
+        "options": ["Public", "Private", "Hybrid", "Community"],
+        "correctAnswer": "Community"
+    },
+    {
+        "question": "Which type of software is used to provide virtualization?",
+        "options": ["Hypervisor", "Firewall", "Antivirus", "IDS/IPS"],
+        "correctAnswer": "Hypervisor"
+    },
+    {
+        "question": "A user that does not want to be identified while communicating on a network uses an application to alter the computer’s identity. Which type of exploit is being perpetrated?",
+        "options": ["Phishing", "Spoofing", "DDoS", "Man-in-the-middle"],
+        "correctAnswer": "Spoofing"
+    },
+    {
+        "question": "An attacker attempts to misdirect traffic on a network back to the attacker by corrupting the network computer’s cache of IP address to MAC address mappings that are cached. Which exploit is the attacker perpetrating?",
+        "options": ["DDoS", "ARP poisoning", "Phishing", "Man-in-the-middle"],
+        "correctAnswer": "ARP poisoning"
+    },
+    {
+        "question": "Which exploit actually breaches the physical medium or uses devices to monitor signals from outside the physical medium itself?",
+        "options": [
+            "Wireless interference",
+            "Denial of Service (DoS)",
+            "Wiretapping",
+            "Session hijacking"
+        ],
+        "correctAnswer": "Wiretapping"
+    },
+    {
+        "question": "Which type of attack can overwhelm a web server by inserting more data into a web form than the system was configured to hold?",
+        "options": ["DDoS", "SQL injection", "Buffer overflow", "XSS"],
+        "correctAnswer": "Buffer overflow"
+    },
+    {
+        "question": "Which type of attack sends an email claiming to be from a reputable business in order to entice the recipient to provide sensitive information?",
+        "options": ["DDoS", "ARP poisoning", "Buffer overflow", "Phishing"],
+        "correctAnswer": "Phishing"
+    },
+    {
+        "question": "A user on a network is planning to launch an exploit against a coworker in a neighboring department. The user needs to identify the IP address of a coworker in the desired department. Which tool or utility will allow the user to watch network traffic in real time to identify a target?",
+        "options": ["Firewall", "IDS", "Sniffer", "Antivirus"],
+        "correctAnswer": "Sniffer"
+    },
+    {
+        "question": "Which group of attackers is typically used for penetration testing?",
+        "options": ["Blue team", "Red team", "White team", "Green team"],
+        "correctAnswer": "Red team"
+    },
+    {
+        "question": "Which type of attack exploits an unpatched software vulnerability?",
+        "options": [
+            "Zero-day",
+            "Distributed Denial of Service (DDoS)",
+            "SQL injection",
+            "Cross-site scripting (XSS)"
+        ],
+        "correctAnswer": "Zero-day"
+    },
+    {
+        "question": "A company has the policy that all new user passwords are P@ssw0rd but does not require new users to change their password. An employee randomly tries a coworker’s account with the new user password to see if they can log in as the coworker. Which type of vulnerability does this create?",
+        "options": [
+            "Default password",
+            "Weak password policy",
+            "Buffer overflow",
+            "Cross-site scripting (XSS)"
+        ],
+        "correctAnswer": "Default password"
+    },
+    {
+        "question": "An employee that does not want to miss emails from an important client sets up her cellular smartphone to allow her to check email. Unfortunately, she does not install antivirus software on the cellular phone. What type of vulnerability is represented?",
+        "options": ["BYOD/Mobile", "Phishing", "Malware", "Zero-day"],
+        "correctAnswer": "BYOD/Mobile"
+    },
+    {
+        "question": "What is the definition of vulnerability, in computer security?",
+        "options": [
+            "It is a weakness which can be exploited by a threat, such as an attacker, to perform unauthorized actions within a computer system.",
+            "It is a technique used by cybercriminals to gain access to sensitive information by tricking individuals into providing it.",
+            "It is a malicious software program designed to disrupt, damage, or gain unauthorized access to a computer system.",
+            "It is the process of encoding data to prevent unauthorized access."
+        ],
+        "correctAnswer": "It is a weakness which can be exploited by a threat, such as an attacker, to perform unauthorized actions within a computer system."
+    },
+    {
+        "question": "What is required to establish a secure connection to a remote network over an insecure link?",
+        "options": [
+            "Firewall",
+            "Antivirus software",
+            "Virtual Private Network (VPN) service",
+            "Intrusion Detection System (IDS)"
+        ],
+        "correctAnswer": "Virtual Private Network (VPN) service"
+    },
+    {
+        "question": "An organization is concerned about brute force attacks. How should the organization counter this risk?",
+        "options": [
+            "Implement a system hardening policy that ensures operating system updates and software patches are installed regularly.",
+            "Enforce strong password policies requiring complex passwords that are changed frequently.",
+            "Implement multi-factor authentication (MFA) for all user accounts.",
+            "Institute a log-in policy that locks users out of an account after three failed password attempts."
+        ],
+        "correctAnswer": "Institute a log-in policy that locks users out of an account after three failed password attempts."
+    },
+    {
+        "question": "An organization suffers a social engineering attack that results in a cybercriminal gaining access to its networks and to its customers’ private information. How can the organization mitigate this risk in the future?",
+        "options": [
+            "Implement a system hardening policy that ensures operating system updates and software patches are installed regularly.",
+            "Provide regular cybersecurity training for employees",
+            "Enforce strong password policies requiring complex passwords that are changed frequently.",
+            "Implement multi-factor authentication (MFA) for all user accounts."
+        ],
+        "correctAnswer": "Provide regular cybersecurity training for employees"
+    },
+    {
+        "question": "An attacker plans to exploit flaws in an operating system to gain access to a user's computer system. What is a prevention mechanism for this type of attack?",
+        "options": ["Firewall", "Antivirus software", "Patching", "Encryption"],
+        "correctAnswer": "Patching"
+    },
+    {
+        "question": "An unauthorized third-party has gained access to a company network. How can they be prevented from deleting data?",
+        "options": [
+            "Implement access controls",
+            "Install antivirus software",
+            "Enable firewall rules",
+            "Implement network segmentation"
+        ],
+        "correctAnswer": "Access controls"
+    },
+    {
+        "question": "An attacker has gained access to the passwords of several employees of a company through a brute force attack. Which authentication method would keep the attacker from accessing the employees’ devices?",
+        "options": [
+            "Single-factor authentication",
+            "Biometric authentication",
+            "MFA (multi factor authorization)",
+            "PIN authentication"
+        ],
+        "correctAnswer": "MFA (multi factor authorization)"
+    },
+    {
+        "question": "After downloading a CD/DVD burning program, a user notices that someone is remotely accessing the computer during nighttime hours. Which type of malware is likely found in the CD/DVD software?",
+        "options": ["Adware", "Spyware", "Trojan horse", "Ransomware"],
+        "correctAnswer": "Trojan horse"
+    },
+    {
+        "question": "A user is working on a home computer when another user seems to open an application to view documents on the same computer. The user immediately suspects that a back door into the computer exists. Which action should be taken first to deal with the problem?",
+        "options": [
+            "Run antivirus scan",
+            "Disconnect the computer from the network",
+            "Unplug the PC’s network connection",
+            "Reboot the computer in safe mode"
+        ],
+        "correctAnswer": "Unplug the PC’s network connection"
+    },
+    {
+        "question": "A user receives an email from an unknown bank saying that the user’s account with the bank has been compromised. The user suspects that this is a phishing exploit. How should the user safely proceed?",
+        "options": [
+            "Click on any links provided in the email",
+            "Reply to the email with account details",
+            "Open a new browser page, navigate to the bank’s website, and acquire legitimate contact information to report the email.",
+            "Forward the email to friends and family"
+        ],
+        "correctAnswer": "Open a new browser page, navigate to the bank’s website, and acquire legitimate contact information to report the email."
+    },
+    {
+        "question": "A malicious user was able to lock a user's account after guessing the user's password multiple times unsuccessfully. Which category of the CIA triad did the malicious user target in this attack?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Availability"
+    },
+    {
+        "question": "Which category of the CIA triad is affected when an unauthorized user changes the data within a read-only file?",
+        "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+        ],
+        "correctAnswer": "Integrity"
+    }
+]
