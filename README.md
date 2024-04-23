@@ -21,6 +21,5 @@ To start the app using `pnpm dev`:
 
 ## Screenshots
 
-![Screenshot]
+![Screenshot](./Screenshot%20from%202024-04-23%2016-10-46.png)
 
-[Screenshot]:./Screenshot from 2024-04-23 16-10-46.png
