@@ -1,14 +1,4 @@
-"use client";
-
-import { useState } from "react";
-
-interface NavbarProps {
-    handleFileUpload: (file: File) => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ handleFileUpload }) => {
-    const [isOpen, setIsOpen] = useState(false);
-
+const Navbar: React.FC = () => {
     return (
         <nav className="sticky top-0 z-10 ">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,7 +8,7 @@ const Navbar: React.FC<NavbarProps> = ({ handleFileUpload }) => {
                             SYN/ACK
                         </a>
                     </div>
-                    <div className="hidden md:block">ye</div>
+                    {/* <div className="hidden md:block">ye</div> */}
                 </div>
             </div>
         </nav>

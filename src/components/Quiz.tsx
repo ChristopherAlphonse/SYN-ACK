@@ -1,5 +1,4 @@
 "use client";
-
 import {
     Box,
     Button,
@@ -12,6 +11,7 @@ import {
     Typography,
 } from "@mui/material";
 import React, { useState } from "react";
+import { RiFolderUploadLine } from "react-icons/ri";
 
 import { toast } from "react-toastify";
 import { getMockQuizData } from "./quizData";
@@ -25,23 +25,26 @@ const Quiz: React.FC = () => {
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [showStats, setShowStats] = useState(false);
 
-    const handleFileUpload = (file: File) => {
-        const reader = new FileReader();
-        reader.onload = (event) => {
-            try {
-                const jsonData = JSON.parse(event.target?.result as string);
-                setQuestions(jsonData);
-                setCurrentQuestionIndex(0); // Reset to the first question
-                setCorrectAnswersCount(0); // Reset correct answers count
-                setSelectedOption(""); // Reset selected option
-            } catch (error) {
-                console.error("Error parsing JSON file:", error);
-                toast.error(
-                    "Error parsing JSON file. Please upload a valid JSON file.",
-                );
-            }
-        };
-        reader.readAsText(file);
+    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const jsonData = JSON.parse(event.target?.result as string);
+                    setQuestions(jsonData);
+                    setCurrentQuestionIndex(0);
+                    setCorrectAnswersCount(0);
+                    setSelectedOption("");
+                } catch (error) {
+                    console.error("Error parsing JSON file:", error);
+                    toast.error(
+                        "Error parsing JSON file. Please upload a valid JSON file.",
+                    );
+                }
+            };
+            reader.readAsText(file);
+        }
     };
 
     const handleRestart = () => {
@@ -66,12 +69,10 @@ const Quiz: React.FC = () => {
             toast.error("Wrong answer. Try again!");
         }
 
-        // Move to the next question
         if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
             setSelectedOption("");
         } else {
-            // If there are no more questions, display quiz stats
             setShowStats(true);
         }
     };
@@ -85,7 +86,6 @@ const Quiz: React.FC = () => {
             setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
             setSelectedOption("");
         } else {
-            // If there are no more questions, display quiz stats
             setShowStats(true);
         }
     };
@@ -105,6 +105,21 @@ const Quiz: React.FC = () => {
 
     return (
         <div className="">
+            <div className="pb-3">
+                <label
+                    htmlFor="uploadFile1"
+                    className="flex   text-base outline-none  w-max cursor-pointer mx-auto font-[sans-serif]   px-9 py-1.5 border border-gay-600 text-white rounded-md shadow-md hover:bg-gray-900 transition duration-300 ease-in-out gap-3"
+                >
+                    JSON {"{ }"}
+                    <input
+                        type="file"
+                        id="uploadFile1"
+                        className="hidden"
+                        onChange={handleFileUpload}
+                    />
+                    <RiFolderUploadLine size={20} />
+                </label>
+            </div>
             {!showStats ? (
                 <Card>
                     <CardContent>
@@ -121,7 +136,7 @@ const Quiz: React.FC = () => {
                                 {questions[currentQuestionIndex].options.map(
                                     (option, optionIndex) => (
                                         <FormControlLabel
-                                            key={optionIndex}
+                                            key={crypto.randomUUID()}
                                             value={option}
                                             control={<Radio />}
                                             label={option}
@@ -173,30 +188,36 @@ const Quiz: React.FC = () => {
                 </Card>
             ) : (
                 <div className="text-white text-center">
-                    <h2>End of Quiz</h2>
-                    <p>There are no more questions.</p>
-                    <p>Quiz Stats:</p>
-                    <p>Total Questions: {questions.length}</p>
-                    <p>
-                        Correct Answers:{" "}
-                        <span className="text-green-600">
-                            {correctAnswersCount}
-                        </span>{" "}
-                        <span className="text-gray-900">{"|"} </span>
-                    </p>
-                    <p>
-                        Wrong Answer:{" "}
-                        <span className="text-red-600">
-                            {wrongAnswersCount}
-                        </span>{" "}
-                        <span className="text-gray-900">{"|"} </span>
-                    </p>
-                    <div>
-                        <button onClick={handleRestart}> Restart</button>
+                    <div className="mb-9">
+                        <button
+                            onClick={handleRestart}
+                            className="px-9 py-1.5 border border-gay-600 text-white rounded-md shadow-md hover:bg-gray-900 transition duration-300 ease-in-out"
+                        >
+                            Restart
+                        </button>
+                    </div>
+                    <h2 className="text-9xl font-bold">End of Quiz</h2>
+
+                    <div className="font-md pt-3 text-xl">
+                        <p>Total Questions: {questions.length}</p>
+                        <p>
+                            Correct Answers:{" "}
+                            <span className="text-green-600">
+                                {correctAnswersCount}
+                            </span>{" "}
+                            <span className="text-gray-900">{"|"} </span>
+                        </p>
+                        <p>
+                            Wrong Answer:{" "}
+                            <span className="text-red-600">
+                                {wrongAnswersCount}
+                            </span>{" "}
+                            <span className="text-gray-900">{"|"} </span>
+                        </p>
                     </div>
                 </div>
             )}
-            {/* only one at a time */}
+
             {!showStats && (
                 <div className="flex-end justify-end flex gap-3">
                     <p>
