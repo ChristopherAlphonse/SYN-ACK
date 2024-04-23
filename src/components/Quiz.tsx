@@ -23,8 +23,8 @@ const Quiz: React.FC = () => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState("");
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
+    const [wrongAnswersCount, setWrongAnswersCount] = useState(0);
     const [showStats, setShowStats] = useState(false);
-
     const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
         const file = event.target.files?.[0];
         if (file) {
@@ -52,6 +52,7 @@ const Quiz: React.FC = () => {
         setCurrentQuestionIndex(0);
         setSelectedOption("");
         setCorrectAnswersCount(0);
+        setWrongAnswersCount(0); // Reset wrong answers count
         setShowStats(false);
     };
 
@@ -66,6 +67,7 @@ const Quiz: React.FC = () => {
             setCorrectAnswersCount((prevCount) => prevCount + 1);
             toast.success("Correct answer!");
         } else {
+            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
             toast.error("Wrong answer. Try again!");
         }
 
@@ -78,8 +80,8 @@ const Quiz: React.FC = () => {
     };
 
     const handleNextQuestion = () => {
-        if (selectedOption === questions[currentQuestionIndex].correctAnswer) {
-            setCorrectAnswersCount((prevCount) => prevCount + 1);
+        if (selectedOption !== questions[currentQuestionIndex].correctAnswer) {
+            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
         }
 
         if (currentQuestionIndex < questions.length - 1) {
@@ -91,8 +93,8 @@ const Quiz: React.FC = () => {
     };
 
     const handlePreviousQuestion = () => {
-        if (selectedOption === questions[currentQuestionIndex].correctAnswer) {
-            setCorrectAnswersCount((prevCount) => prevCount - 1);
+        if (selectedOption !== questions[currentQuestionIndex].correctAnswer) {
+            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
         }
 
         if (currentQuestionIndex > 0) {
@@ -100,8 +102,6 @@ const Quiz: React.FC = () => {
             setSelectedOption("");
         }
     };
-
-    const wrongAnswersCount = correctAnswersCount;
 
     return (
         <div className="">
