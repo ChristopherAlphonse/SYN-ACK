@@ -10,3 +10,5 @@ interface SongTypes {
     url: string;
 }
 [];
+
+declare module "amplitudejs";

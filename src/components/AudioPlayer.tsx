@@ -1,43 +1,50 @@
 "use client";
 
+// eslint-disable
+// @ts-ignore
 import "./audi.css";
 
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { PiPause, PiRepeatLight, PiShuffleFill } from "react-icons/pi";
 
+// @ts-ignore
+import Amplitude from "../../node_modules/amplitudejs/dist/amplitude";
 import { songs } from "@/data/songs";
 import { useEffect } from "react";
-import Amplitude from "../../node_modules/amplitudejs/dist/amplitude";
 
 const AudioPlayer = () => {
     useEffect(() => {
-        Amplitude.init({
-            bindings: {
-                37: "prev",
-                39: "next",
-                32: "play_pause",
-            },
-            callbacks: {
-                timeupdate: () => {
-                    let percentage = Amplitude.getSongPlayedPercentage();
-                    if (isNaN(percentage)) {
-                        percentage = 0;
-                    }
-                    const slider = document.getElementById(
-                        "song-percentage-played",
-                    );
-                    if (slider) {
-                        slider.style.backgroundSize = percentage + "% 100%";
-                    }
+        if (typeof Amplitude !== "undefined") {
+            Amplitude.init({
+                bindings: {
+                    37: "prev",
+                    39: "next",
+                    32: "play_pause",
                 },
-            },
-            songs: songs,
-        });
+                callbacks: {
+                    timeupdate: () => {
+                        let percentage = Amplitude.getSongPlayedPercentage();
+                        if (isNaN(percentage)) {
+                            percentage = 0;
+                        }
+                        const slider = document.getElementById(
+                            "song-percentage-played",
+                        );
+                        if (slider) {
+                            slider.style.backgroundSize = percentage + "% 100%";
+                        }
+                    },
+                },
+                songs: songs,
+            });
+        }
+
         window.onkeydown = (e) => {
-            return !(e.keyCode === 32);
+            if (e.key === " ") {
+                e.preventDefault();
+            }
         };
     }, []);
-
     return (
         <div className="h-full flex justify-center items-center">
             <div className="w-screen max-w-9xl">
