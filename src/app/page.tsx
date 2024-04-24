@@ -2,8 +2,9 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { ToastContainer, Zoom } from "react-toastify";
 
-import Navbar from "../components/nav";
-import Quiz from "../components/Quiz";
+import Navbar from "@/components/Nav";
+import Quiz from "@/components/Quiz";
+import AudioPlayer from "../components/AudioPlayer";
 
 export default function Home() {
     return (
@@ -26,6 +27,7 @@ export default function Home() {
                     />
 
                     <Quiz />
+                    <AudioPlayer />
                 </div>
             </main>
         </>

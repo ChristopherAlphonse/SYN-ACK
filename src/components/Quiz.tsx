@@ -1,4 +1,5 @@
 "use client";
+
 import {
     Box,
     Button,
@@ -11,10 +12,10 @@ import {
     Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import { RiFolderUploadLine } from "react-icons/ri";
 
+import { RiFolderUploadLine } from "react-icons/ri";
 import { toast } from "react-toastify";
-import { getMockQuizData } from "./quizData";
+import { getMockQuizData } from "./QuizData";
 
 const Quiz: React.FC = () => {
     const [questions, setQuestions] = useState<QuizQuestion[]>(
@@ -104,7 +105,7 @@ const Quiz: React.FC = () => {
     };
 
     return (
-        <div className="">
+        <div className="pb-9">
             <div className="pb-3">
                 <label
                     htmlFor="uploadFile1"

@@ -3,3 +3,10 @@ interface QuizQuestion {
     options: string[];
     correctAnswer: string;
 }
+interface SongTypes {
+    name: string;
+    artist: string;
+    album: string;
+    url: string;
+}
+[];

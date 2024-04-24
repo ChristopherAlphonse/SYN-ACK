@@ -4,7 +4,7 @@
 
 This application is meant to be self-hosted for personal use. You can utilize it however you see fit.
 
-![Screenshot](./Screenshot%20from%202024-04-23%2016-10-46.png)
+![Screenshot2](./img/Screenshot%202024-04-23%20232256.png)
 
 ## Installation
 
@@ -12,8 +12,9 @@ This application is meant to be self-hosted for personal use. You can utilize it
 2. Navigate to the project directory.
 3. Run `pnpm install` to install dependencies.
 
+## Data
 
-
+All data is stored in `src/data/*` file.
 
 ## JSON Data EXAMPLE
 
@@ -40,7 +41,19 @@ This application is meant to be self-hosted for personal use. You can utilize it
         "correctAnswer": "AWS Lambda"
     }
 ]
+```
 
+## Music Data EXAMPLE
+
+```typescript
+export const songs: SongTypes[] = [
+    {
+        name: "First Snow",
+        artist: "Emancipator",
+        album: "Soon It Will Be Cold Enough",
+        url: "https://521dimensions.com/song/FirstSnow-Emancipator.mp3",
+    },
+];
 ```
 
 ## Usage
@@ -52,5 +65,4 @@ To start the app using `pnpm dev`:
 3. Run `pnpm dev`.
 4. The app should now be running locally. You can access it by navigating to `http://localhost:3000` in your web browser.
 
-
-![JSON](./Screenshot%20from%202024-04-23%2016-27-38.png)
+![Screenshot](./img/Screenshot%20from%202024-04-23%2016-10-46.png)
