@@ -54,11 +54,12 @@ const AudioPlayer = () => {
                         <div className="flex flex-col">
                             <span
                                 data-amplitude-song-info="name"
-                                className="font-sans text-3xl pb-1 uppercase  font-medium leading-7 text-gray-600"
+                                className="font-sans text-3xl pb-1 uppercase  font-bold leading-7 text-gray-400"
                             ></span>
+
                             <span
                                 data-amplitude-song-info="artist"
-                                className="font-sans text-base font-medium leading-6 text-gray-400"
+                                className="font-sans text-base font-medium leading-6 text-gray-600"
                             ></span>
                             <span
                                 data-amplitude-song-info="album"
@@ -86,7 +87,7 @@ const AudioPlayer = () => {
                         <button className="cursor-pointer amplitude-prev text-gray-500 hover:text-gray-400">
                             <BiSkipPrevious size={40} />
                         </button>
-                        <div className="cursor-pointer amplitude-play-pause w-24 h-24 rounded-full  border border-play-pause-light-border shadow-xl flex items-center justify-center dark:bg-play-pause-dark-background border-play-pause-dark-border ">
+                        <div className="cursor-pointer amplitude-play-pause my-3">
                             <PiPause
                                 size={50}
                                 id="pause-icon"

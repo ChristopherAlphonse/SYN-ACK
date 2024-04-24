@@ -6,6 +6,18 @@ export const songs: SongTypes[] = [
         url: "./sound/Hope.mp3",
     },
     {
+        name: "Lofi Study",
+        artist: "FASSounds",
+        url: "./sound/Lofi-Stuty.mp3",
+        album: "EP",
+    },
+    {
+        name: "Just Relax",
+        artist: "Lesfm",
+        url: "./sound/Just-Relax.mp3",
+        album: "EP",
+    },
+    {
         name: "Intro / Sweet Glory",
         artist: "Jimkata",
         album: "Die Digital",

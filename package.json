@@ -6,7 +6,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "sitemap": "next-sitemap --config next-sitemap.config.js"
     },
     "dependencies": {
         "@emotion/react": "^11.11.4",
@@ -22,6 +23,7 @@
         "amplitude-js": "^8.21.9",
         "amplitudejs": "^5.3.2",
         "autoprefixer": "^10.4.19",
+        "axios": "^1.6.8",
         "eslint": "^9.1.1",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.6",
@@ -38,6 +40,7 @@
         "react-toastify": "^10.0.5",
         "tailwindcss": "^3.4.3",
         "typescript": "^5.2.2",
+        "next-pwa": "^5.6.0",
         "vite": "^5.2.10"
     },
     "devDependencies": {
