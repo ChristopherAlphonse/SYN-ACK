@@ -1,20 +1,17 @@
 "use client";
 
-// eslint-disable
-// @ts-ignore
 import "./audi.css";
 
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
-import { PiPause, PiRepeatLight, PiShuffleFill } from "react-icons/pi";
+import { PiPause, PiPlay, PiRepeatLight, PiShuffleFill } from "react-icons/pi";
 
-// @ts-ignore
-import Amplitude from "../../node_modules/amplitudejs/dist/amplitude";
 import { songs } from "@/data/songs";
+import Amplitude from "amplitudejs";
 import { useEffect } from "react";
 
 const AudioPlayer = () => {
     useEffect(() => {
-        if (typeof Amplitude !== "undefined") {
+        if (typeof window !== "undefined") {
             Amplitude.init({
                 bindings: {
                     37: "prev",
@@ -25,6 +22,7 @@ const AudioPlayer = () => {
                     timeupdate: () => {
                         let percentage = Amplitude.getSongPlayedPercentage();
                         if (isNaN(percentage)) {
+                            // @ts-ignore
                             percentage = 0;
                         }
                         const slider = document.getElementById(
@@ -37,18 +35,18 @@ const AudioPlayer = () => {
                 },
                 songs: songs,
             });
+            window.onkeydown = (e) => {
+                if (e.key === " ") {
+                    e.preventDefault();
+                }
+            };
         }
-
-        window.onkeydown = (e) => {
-            if (e.key === " ") {
-                e.preventDefault();
-            }
-        };
     }, []);
+
     return (
         <div className="h-full flex justify-center items-center">
             <div className="w-screen max-w-9xl">
-                <h1 className="text-9xl capitalize text-gray-600 leading-widest pb-9 text-center">
+                <h1 className="text-9xl capitalize text-gray-600 leading-widest pb-2 pt-9 text-center">
                     Music Player
                 </h1>
                 <div className="relative flex flex-col rounded-xl border border-white shadow-player-dark bg-transparent justify-center mt-9 pt-9">
@@ -56,7 +54,7 @@ const AudioPlayer = () => {
                         <div className="flex flex-col">
                             <span
                                 data-amplitude-song-info="name"
-                                className="font-sans text-3xl pb-1 uppercase tracking-wide font-medium leading-7 text-gray-600"
+                                className="font-sans text-3xl pb-1 uppercase  font-medium leading-7 text-gray-600"
                             ></span>
                             <span
                                 data-amplitude-song-info="artist"
@@ -83,23 +81,31 @@ const AudioPlayer = () => {
                     <div className="h-control-panel px-10 rounded-b-xl border-t border-gray-500 flex items-center justify-between z-50 bg-control-panel-dark-background">
                         <div className="cursor-pointer" id="song-saved"></div>
                         <button className="cursor-pointer amplitude-shuffle text-gray-500 hover:text-gray-400">
-                            <PiShuffleFill size={35} />
+                            <PiShuffleFill size={45} />
                         </button>
                         <button className="cursor-pointer amplitude-prev text-gray-500 hover:text-gray-400">
-                            <BiSkipPrevious size={30} />
+                            <BiSkipPrevious size={40} />
                         </button>
-                        <button className="cursor-pointer amplitude-play-pause text-gray-500 hover:text-gray-400">
-                            <PiPause size={40} />
-                        </button>
+                        <div className="cursor-pointer amplitude-play-pause w-24 h-24 rounded-full  border border-play-pause-light-border shadow-xl flex items-center justify-center dark:bg-play-pause-dark-background border-play-pause-dark-border ">
+                            <PiPause
+                                size={50}
+                                id="pause-icon"
+                                className="text-gray-500 hover:text-gray-400"
+                            />
+                            <PiPlay
+                                size={50}
+                                id="play-icon"
+                                className="text-gray-500 hover:text-gray-400"
+                            />
+                        </div>
                         <button className="cursor-pointer amplitude-next text-gray-500 hover:text-gray-400">
-                            <BiSkipNext size={30} />
+                            <BiSkipNext size={40} />
                         </button>
                         <button className="cursor-pointer amplitude-repeat-song text-gray-500 hover:text-gray-400">
-                            <PiRepeatLight size={35} />
+                            <PiRepeatLight size={45} />
                         </button>
                         <div>
                             <div id="volume-container">
-                                <label htmlFor="volume-slider"> </label>
                                 <input
                                     type="range"
                                     className="amplitude-volume-slider"
