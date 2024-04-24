@@ -1,9 +1,9 @@
 export const songs: SongTypes[] = [
     {
-        name: "First Snow",
-        artist: "Emancipator",
-        album: "Soon It Will Be Cold Enough",
-        url: "https://521dimensions.com/song/FirstSnow-Emancipator.mp3",
+        name: "Hope",
+        artist: " Ghostrifter Official",
+        album: "EP",
+        url: "./sound/Hope.mp3",
     },
     {
         name: "Intro / Sweet Glory",
@@ -40,7 +40,6 @@ export const songs: SongTypes[] = [
         artist: "Lorn",
         album: "Ask The Dust",
         url: "https://521dimensions.com/songs/08 The Gun.mp3",
-       
     },
     {
         name: "Anvil",
