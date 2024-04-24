@@ -11,12 +11,7 @@
     },
     {
         "question": "What AWS service enables you to build serverless applications using functions?",
-        "options": [
-            "Amazon SNS",
-            "Amazon SQS",
-            "AWS Lambda",
-            "Amazon API Gateway"
-        ],
-        "correctAnswer": "AWS Lambda"
+        "options": ["Amazon SNS", "Amazon SQS", "Lambda", "Amazon API Gateway"],
+        "correctAnswer": "Lambda"
     }
 ]
