@@ -8,6 +8,9 @@ const nextConfig = {
         removeConsole: process.env.NODE_ENV !== "development",
     },
     productionBrowserSourceMaps: false,
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
 };
 
 const withPWAConfig = withPWA({

@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 const AudioPlayer = () => {
     useEffect(() => {
-        if (typeof window !== "undefined") {
+        if (typeof window !== "undefined" && typeof Audio !== "undefined") {
             Amplitude.init({
                 bindings: {
                     37: "prev",

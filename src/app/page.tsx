@@ -4,8 +4,11 @@ import { ToastContainer, Zoom } from "react-toastify";
 
 import Navbar from "@/components/Nav";
 import Quiz from "@/components/Quiz";
-import AudioPlayer from "../components/AudioPlayer";
+import dynamic from "next/dynamic";
 
+const DynamicAudioPlayer = dynamic(() => import("@/components/AudioPlayer"), {
+    ssr: false,
+});
 export default function Home() {
     return (
         <>
@@ -27,7 +30,7 @@ export default function Home() {
                     />
 
                     <Quiz />
-                    <AudioPlayer />
+                    <DynamicAudioPlayer />
                 </div>
             </main>
         </>
