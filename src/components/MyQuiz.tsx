@@ -18,7 +18,7 @@ import React, { useState } from "react";
 
 import { RiFolderUploadLine } from "react-icons/ri";
 import { toast } from "react-toastify";
-import { getMockQuizData } from "./QuizData";
+import { getMockQuizData } from "./getMockQuizData";
 
 const MyQuiz: React.FC = () => {
     const [questions, setQuestions] = useState<QuizQuestion[]>(
