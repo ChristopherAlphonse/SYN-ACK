@@ -8,7 +8,7 @@ import { ToastContainer, Zoom } from "react-toastify";
 import { Skeleton } from "@mui/material";
 import dynamic from "next/dynamic";
 import Loader from "../components/loaderUI/Loader";
-import Navbar from "../components/Nav";
+import MyNavbar from "../components/MyNavbar";
 import Quiz from "../components/Quiz";
 
 const DynamicAudioPlayer = dynamic(() => import("../components/AudioPlayer"), {
@@ -26,7 +26,7 @@ export default function Home() {
 
     return (
         <>
-            <Navbar />
+            <MyNavbar />
             {isLoading ? (
                 <div className="flex min-h-screen items-center justify-center p-24">
                     <Loader />

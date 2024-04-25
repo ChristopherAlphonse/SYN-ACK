@@ -5,9 +5,9 @@ import "./audi.css";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { PiPause, PiPlay, PiRepeatLight, PiShuffleFill } from "react-icons/pi";
 
-import { songs } from "@/data/songs";
 import Amplitude from "amplitudejs";
 import { useEffect } from "react";
+import { songs } from "../data/songs";
 
 const AudioPlayer = () => {
     useEffect(() => {
