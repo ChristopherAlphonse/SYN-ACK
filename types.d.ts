@@ -6,7 +6,9 @@ interface QuizQuestion {
 interface SongTypes {
     name: string;
     artist: string;
-    album: string;
+    album: string?;
     url: string;
 }
 [];
+
+declare module "amplitudejs";
