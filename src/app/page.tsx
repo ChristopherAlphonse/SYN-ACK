@@ -11,7 +11,7 @@ import Loader from "../components/loaderUI/Loader";
 import Navbar from "../components/Nav";
 import Quiz from "../components/Quiz";
 
-const DynamicAudioPlayer = dynamic(() => import("@/components/AudioPlayer"), {
+const DynamicAudioPlayer = dynamic(() => import("../components/AudioPlayer"), {
     ssr: false,
 });
 
@@ -49,7 +49,6 @@ export default function Home() {
                             theme="dark"
                             transition={Zoom}
                         />
-
                         <Suspense fallback={<Skeleton />}>
                             <DynamicAudioPlayer />
                             <Quiz />

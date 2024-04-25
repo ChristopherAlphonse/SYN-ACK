@@ -15,11 +15,8 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - name: Install Vercel CLI and Install pnpm
-              run: npm i -g vercel pnpm
-
-            - name: Install dependencies
-              run: pnpm install
+            - name: Install Vercel CLI
+              run: npm i -g vercel
 
             - name: Pull Vercel Environment
               run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
