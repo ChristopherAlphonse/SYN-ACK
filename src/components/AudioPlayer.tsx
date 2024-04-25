@@ -22,7 +22,6 @@ const AudioPlayer = () => {
                     timeupdate: () => {
                         let percentage = Amplitude.getSongPlayedPercentage();
                         if (isNaN(percentage)) {
-                            // @ts-ignore
                             percentage = 0;
                         }
                         const slider = document.getElementById(

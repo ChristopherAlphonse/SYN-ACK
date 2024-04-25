@@ -72,7 +72,7 @@ const Quiz: React.FC = () => {
             setCorrectAnswersCount((prevCount) => prevCount + 1);
             toast.success("Correct answer!");
         } else {
-            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
+            setWrongAnswersCount((prevCount) => prevCount + 1);
             toast.error("Wrong answer. Try again!");
         }
 
@@ -86,7 +86,7 @@ const Quiz: React.FC = () => {
 
     const handleNextQuestion = () => {
         if (selectedOption !== questions[currentQuestionIndex].correctAnswer) {
-            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
+            setWrongAnswersCount((prevCount) => prevCount + 1);
         }
 
         if (currentQuestionIndex < questions.length - 1) {
@@ -99,7 +99,7 @@ const Quiz: React.FC = () => {
 
     const handlePreviousQuestion = () => {
         if (selectedOption !== questions[currentQuestionIndex].correctAnswer) {
-            setWrongAnswersCount((prevCount) => prevCount + 1); // Increment wrong answers count
+            setWrongAnswersCount((prevCount) => prevCount + 1);
         }
 
         if (currentQuestionIndex > 0) {
