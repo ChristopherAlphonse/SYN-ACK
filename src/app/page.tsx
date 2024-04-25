@@ -8,14 +8,10 @@ import { ToastContainer, Zoom } from "react-toastify";
 import { Skeleton } from "@mui/material";
 import dynamic from "next/dynamic";
 import Loader from "../components/loaderUI/Loader";
+import Navbar from "../components/Nav";
+import Quiz from "../components/Quiz";
 
 const DynamicAudioPlayer = dynamic(() => import("@/components/AudioPlayer"), {
-    ssr: false,
-});
-const Navbar = dynamic(() => import("@/components/Nav"), {
-    ssr: false,
-});
-const Quiz = dynamic(() => import("@/components/Quiz"), {
     ssr: false,
 });
 
