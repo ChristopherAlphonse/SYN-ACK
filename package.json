@@ -1,5 +1,5 @@
 {
-    "name": "quiz",
+    "name": "quiz-application",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -42,8 +42,8 @@
         "vite": "^5.2.10"
     },
     "devDependencies": {
-        "@heroicons/react": "^2.1.3",
         "@types/node": "^20.12.7",
+        "@heroicons/react": "^2.1.3",
         "eslint-config-next": "^14.2.3",
         "framer-motion": "^11.1.7",
         "postcss": "^8.4.38",
