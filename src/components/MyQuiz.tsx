@@ -11,14 +11,13 @@ import {
     FormControlLabel,
     Radio,
     RadioGroup,
-    Skeleton,
     Typography,
 } from "@mui/material";
 import React, { useState } from "react";
 
 import { RiFolderUploadLine } from "react-icons/ri";
-import { toast } from "react-toastify";
 import { getMockQuizData } from "./getMockQuizData";
+import { toast } from "react-toastify";
 
 const MyQuiz: React.FC = () => {
     const [questions, setQuestions] = useState<QuizQuestion[]>(
@@ -28,7 +27,7 @@ const MyQuiz: React.FC = () => {
     const [selectedOption, setSelectedOption] = useState("");
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [wrongAnswersCount, setWrongAnswersCount] = useState(0);
-    const [loading, setLoading] = useState(true);
+
     const [showStats, setShowStats] = useState(false);
     const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
         const file = event.target.files?.[0];
@@ -227,36 +226,26 @@ const MyQuiz: React.FC = () => {
 
             {!showStats && (
                 <div className="flex-end justify-end flex gap-3">
-                    {loading ? (
-                        <>
-                            <Skeleton variant="text" width={120} height={20} />
-                            <Skeleton variant="text" width={120} height={20} />
-                            <Skeleton variant="text" width={120} height={20} />
-                        </>
-                    ) : (
-                        <>
-                            <p>
-                                Wrong Answer:{" "}
-                                <span className="text-red-600">
-                                    {wrongAnswersCount}
-                                </span>{" "}
-                                <span className="text-gray-900">{"|"} </span>
-                            </p>
-                            <p>
-                                Correct Answers:{" "}
-                                <span className="text-green-600">
-                                    {correctAnswersCount}
-                                </span>{" "}
-                                <span className="text-gray-900">{"|"} </span>
-                            </p>
-                            <p>
-                                Total Questions:{" "}
-                                <span className="text-slate-200">
-                                    {questions.length}
-                                </span>
-                            </p>
-                        </>
-                    )}
+                    <p>
+                        Wrong Answer:{" "}
+                        <span className="text-red-600">
+                            {wrongAnswersCount}
+                        </span>{" "}
+                        <span className="text-gray-900">{"|"} </span>
+                    </p>
+                    <p>
+                        Correct Answers:{" "}
+                        <span className="text-green-600">
+                            {correctAnswersCount}
+                        </span>{" "}
+                        <span className="text-gray-900">{"|"} </span>
+                    </p>
+                    <p>
+                        Total Questions:{" "}
+                        <span className="text-slate-200">
+                            {questions.length}
+                        </span>
+                    </p>
                 </div>
             )}
         </div>
