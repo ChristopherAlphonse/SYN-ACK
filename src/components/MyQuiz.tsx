@@ -19,7 +19,7 @@ import { toast } from "react-toastify";
 
 const MyQuiz: React.FC = () => {
     const [initialQuestions, setInitialQuestions] = useState(
-        JSON.parse(localStorage.getItem("quizData") || "null") ||
+        JSON.parse(localStorage.getItem("quizData") ?? "null") ||
             getMockQuizData(),
     );
     const [questions, setQuestions] = useState(initialQuestions || []);
