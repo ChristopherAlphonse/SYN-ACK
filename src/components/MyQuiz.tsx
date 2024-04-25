@@ -13,10 +13,10 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
-import { PassGen } from "../utils/generateKeys";
 import { RiFolderUploadLine } from "react-icons/ri";
-import { getMockQuizData } from "./getMockQuizData";
 import { toast } from "react-toastify";
+import { PassGen } from "../utils/generateKeys";
+import { getMockQuizData } from "./getMockQuizData";
 
 const LEVEL = {
     Developer: 18,
@@ -167,7 +167,7 @@ const MyQuiz: React.FC = () => {
                                 onChange={handleAnswerSelection}
                             >
                                 {questions[currentQuestionIndex].options.map(
-                                    (option: string, optionIndex: number) => (
+                                    (option: string) => (
                                         <FormControlLabel
                                             key={genID}
                                             value={option}
