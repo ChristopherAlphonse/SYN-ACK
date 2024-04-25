@@ -6,8 +6,8 @@ import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { PiPause, PiPlay, PiRepeatLight, PiShuffleFill } from "react-icons/pi";
 
 import Amplitude from "amplitudejs";
-import { useEffect } from "react";
 import { songs } from "../data/songs";
+import { useEffect } from "react";
 
 const AudioPlayer = () => {
     useEffect(() => {
@@ -43,10 +43,10 @@ const AudioPlayer = () => {
     }, []);
 
     return (
-        <div className="h-full flex justify-center items-center pb-80">
+        <div className="h-full flex justify-center items-center pt-30">
             <div className="w-screen max-w-9xl">
-                <h1 className="text-9xl capitalize text-gray-600 leading-widest  text-center">
-                    Music Player
+                <h1 className="text-5xl md:text-9xl capitalize text-gray-600 leading-widest text-center pb-5 md:pb-10 tracking-widest">
+                    MUSIC
                 </h1>
                 <div className="relative flex flex-col rounded-xl border border-white shadow-player-dark bg-transparent justify-center mt-9 pt-9">
                     <div className="px-10 pt-10 pb-4 flex items-center z-50">

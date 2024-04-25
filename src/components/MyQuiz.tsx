@@ -108,14 +108,14 @@ const MyQuiz: React.FC = () => {
     };
 
     return (
-        <div className="">
-            <h1 className="text-9xl capitalize text-gray-600 leading-widest  text-center pb-20 tracking-widest">
+        <div className="px-4">
+            <h1 className="text-5xl md:text-9xl capitalize text-gray-600 leading-widest text-center pb-10 md:pb-20 tracking-widest">
                 QUIZ
             </h1>
             <div className="pb-3">
                 <label
                     htmlFor="uploadFile1"
-                    className="flex   text-base outline-none  w-max cursor-pointer mx-auto font-[sans-serif]   px-9 py-1.5 border border-gay-600 text-white rounded-md shadow-md hover:bg-gray-900 transition duration-300 ease-in-out gap-3"
+                    className="flex items-center justify-center text-base outline-none w-max cursor-pointer mx-auto font-[sans-serif] px-4 md:px-9 py-1.5 border border-gay-600 text-white rounded-md shadow-md hover:bg-gray-900 transition duration-300 ease-in-out gap-3"
                 >
                     JSON {"{ }"}
                     <input
@@ -143,7 +143,7 @@ const MyQuiz: React.FC = () => {
                                 {questions[currentQuestionIndex].options.map(
                                     (option, optionIndex) => (
                                         <FormControlLabel
-                                            key={crypto.randomUUID()}
+                                            key={optionIndex}
                                             value={option}
                                             control={<Radio />}
                                             label={option}
@@ -153,42 +153,67 @@ const MyQuiz: React.FC = () => {
                             </RadioGroup>
                         </FormControl>
                         <Box mt={2} gap={3}>
-                            <div className="flex gap-3">
-                                <div>
-                                    <Button
-                                        variant="contained"
-                                        color="success"
-                                        onClick={handleSubmit}
-                                    >
-                                        Submit
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button
-                                        variant="contained"
-                                        color="secondary"
-                                        onClick={handlePreviousQuestion}
-                                        disabled={
-                                            !selectedOption ||
-                                            currentQuestionIndex === 0
-                                        }
-                                    >
-                                        Prev
-                                    </Button>
-                                </div>
-                                <div>
-                                    <Button
-                                        variant="contained"
-                                        color="primary"
-                                        onClick={handleNextQuestion}
-                                        disabled={!selectedOption}
-                                    >
-                                        {currentQuestionIndex ===
-                                        questions.length - 1
-                                            ? "Show Stats"
-                                            : "Next"}
-                                    </Button>
-                                </div>
+                            <div className="desktop-button-container hidden md:flex gap-3">
+                                <Button
+                                    variant="contained"
+                                    color="success"
+                                    onClick={handleSubmit}
+                                >
+                                    Submit
+                                </Button>
+                                <Button
+                                    variant="contained"
+                                    color="secondary"
+                                    onClick={handlePreviousQuestion}
+                                    disabled={
+                                        !selectedOption ||
+                                        currentQuestionIndex === 0
+                                    }
+                                >
+                                    Prev
+                                </Button>
+                                <Button
+                                    variant="contained"
+                                    color="primary"
+                                    onClick={handleNextQuestion}
+                                    disabled={!selectedOption}
+                                >
+                                    {currentQuestionIndex ===
+                                    questions.length - 1
+                                        ? "Show Stats"
+                                        : "Next"}
+                                </Button>
+                            </div>
+                            <div className="mobile-button-container md:hidden">
+                                <Button
+                                    variant="contained"
+                                    color="success"
+                                    onClick={handleSubmit}
+                                >
+                                    Submit
+                                </Button>
+                                <Button
+                                    variant="contained"
+                                    color="secondary"
+                                    onClick={handlePreviousQuestion}
+                                    disabled={
+                                        !selectedOption ||
+                                        currentQuestionIndex === 0
+                                    }
+                                >
+                                    Prev
+                                </Button>
+                                <Button
+                                    variant="contained"
+                                    color="primary"
+                                    onClick={handleNextQuestion}
+                                    disabled={!selectedOption}
+                                >
+                                    {currentQuestionIndex ===
+                                    questions.length - 1
+                                        ? "Show Stats"
+                                        : "Next"}
+                                </Button>
                             </div>
                         </Box>
                     </CardContent>
