@@ -1,4 +1,4 @@
-import quizData from "@/data/Network&Security.json";
+import quizData from "@/data/mock.json";
 
 export const getMockQuizData = (): QuizQuestion[] => {
     return quizData;

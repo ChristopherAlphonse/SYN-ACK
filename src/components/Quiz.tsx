@@ -1,5 +1,7 @@
 "use client";
 
+import "react-toastify/dist/ReactToastify.css";
+
 import {
     Box,
     Button,
@@ -9,13 +11,14 @@ import {
     FormControlLabel,
     Radio,
     RadioGroup,
+    Skeleton,
     Typography,
 } from "@mui/material";
 import React, { useState } from "react";
 
 import { RiFolderUploadLine } from "react-icons/ri";
-import { toast } from "react-toastify";
 import { getMockQuizData } from "./QuizData";
+import { toast } from "react-toastify";
 
 const Quiz: React.FC = () => {
     const [questions, setQuestions] = useState<QuizQuestion[]>(
@@ -25,6 +28,7 @@ const Quiz: React.FC = () => {
     const [selectedOption, setSelectedOption] = useState("");
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [wrongAnswersCount, setWrongAnswersCount] = useState(0);
+    const [loading, setLoading] = useState(true);
     const [showStats, setShowStats] = useState(false);
     const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
         const file = event.target.files?.[0];
@@ -105,7 +109,10 @@ const Quiz: React.FC = () => {
     };
 
     return (
-        <div className="pb-9">
+        <div className="">
+            <h1 className="text-9xl capitalize text-gray-600 leading-widest  text-center pb-20 tracking-widest">
+                QUIZ
+            </h1>
             <div className="pb-3">
                 <label
                     htmlFor="uploadFile1"
@@ -198,7 +205,6 @@ const Quiz: React.FC = () => {
                         </button>
                     </div>
                     <h2 className="text-9xl font-bold">End of Quiz</h2>
-
                     <div className="font-md pt-3 text-xl">
                         <p>Total Questions: {questions.length}</p>
                         <p>
@@ -221,26 +227,36 @@ const Quiz: React.FC = () => {
 
             {!showStats && (
                 <div className="flex-end justify-end flex gap-3">
-                    <p>
-                        Wrong Answer:{" "}
-                        <span className="text-red-600">
-                            {wrongAnswersCount}
-                        </span>{" "}
-                        <span className="text-gray-900">{"|"} </span>
-                    </p>
-                    <p>
-                        Correct Answers:{" "}
-                        <span className="text-green-600">
-                            {correctAnswersCount}
-                        </span>{" "}
-                        <span className="text-gray-900">{"|"} </span>
-                    </p>
-                    <p>
-                        Total Questions:{" "}
-                        <span className="text-slate-200">
-                            {questions.length}
-                        </span>
-                    </p>
+                    {loading ? (
+                        <>
+                            <Skeleton variant="text" width={120} height={20} />
+                            <Skeleton variant="text" width={120} height={20} />
+                            <Skeleton variant="text" width={120} height={20} />
+                        </>
+                    ) : (
+                        <>
+                            <p>
+                                Wrong Answer:{" "}
+                                <span className="text-red-600">
+                                    {wrongAnswersCount}
+                                </span>{" "}
+                                <span className="text-gray-900">{"|"} </span>
+                            </p>
+                            <p>
+                                Correct Answers:{" "}
+                                <span className="text-green-600">
+                                    {correctAnswersCount}
+                                </span>{" "}
+                                <span className="text-gray-900">{"|"} </span>
+                            </p>
+                            <p>
+                                Total Questions:{" "}
+                                <span className="text-slate-200">
+                                    {questions.length}
+                                </span>
+                            </p>
+                        </>
+                    )}
                 </div>
             )}
         </div>
