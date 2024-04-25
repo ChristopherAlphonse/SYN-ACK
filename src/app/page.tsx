@@ -2,14 +2,13 @@
 
 import "react-toastify/dist/ReactToastify.css";
 
-import { Suspense, useEffect, useState } from "react";
 import { ToastContainer, Zoom } from "react-toastify";
+import { useEffect, useState } from "react";
 
-import { Skeleton } from "@mui/material";
-import dynamic from "next/dynamic";
+import Loader from "../components/loaderUI/Loader";
 import MyNavbar from "../components/MyNavbar";
 import MyQuiz from "../components/MyQuiz";
-import Loader from "../components/loaderUI/Loader";
+import dynamic from "next/dynamic";
 
 const DynamicAudioPlayer = dynamic(() => import("../components/AudioPlayer"), {
     ssr: false,
@@ -28,16 +27,14 @@ export default function Home() {
         <>
             <MyNavbar />
             {isLoading ? (
-                <div className="flex min-h-screen items-center justify-center p-24">
+                <div className="flex min-h-screen items-center justify-center p-4 md:p-24">
                     <Loader />
                 </div>
             ) : (
-                <main
-                    className={`flex min-h-screen items-center justify-center p-24 `}
-                >
-                    <div className="z-10 w-full max-w-5xl">
+                <main className="min-h-screen">
+                    <div className="container mx-auto px-4">
                         <ToastContainer
-                            position="bottom-right"
+                            position="top-right"
                             autoClose={1100}
                             hideProgressBar
                             newestOnTop={false}
@@ -49,10 +46,10 @@ export default function Home() {
                             theme="dark"
                             transition={Zoom}
                         />
-                        <Suspense fallback={<Skeleton />}>
-                            <DynamicAudioPlayer />
+                        <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
                             <MyQuiz />
-                        </Suspense>
+                            <DynamicAudioPlayer />
+                        </div>
                     </div>
                 </main>
             )}
