@@ -2,9 +2,8 @@ name: Vercel preview deploy
 
 on:
     push:
-        branches:
-            - "*"
-            - "!main"
+        branches-ignore:
+            - "main"
 
 jobs:
     deploy-preview:
