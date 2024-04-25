@@ -17,10 +17,10 @@ import {
 import React, { useState } from "react";
 
 import { RiFolderUploadLine } from "react-icons/ri";
-import { toast } from "react-toastify";
 import { getMockQuizData } from "./QuizData";
+import { toast } from "react-toastify";
 
-const Quiz: React.FC = () => {
+const MyQuiz: React.FC = () => {
     const [questions, setQuestions] = useState<QuizQuestion[]>(
         getMockQuizData(),
     );
@@ -263,4 +263,4 @@ const Quiz: React.FC = () => {
     );
 };
 
-export default Quiz;
+export default MyQuiz;

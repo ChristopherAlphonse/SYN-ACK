@@ -5,11 +5,11 @@ import "react-toastify/dist/ReactToastify.css";
 import { Suspense, useEffect, useState } from "react";
 import { ToastContainer, Zoom } from "react-toastify";
 
-import { Skeleton } from "@mui/material";
-import dynamic from "next/dynamic";
 import Loader from "../components/loaderUI/Loader";
 import MyNavbar from "../components/MyNavbar";
-import Quiz from "../components/Quiz";
+import Quiz from "../components/MyQuiz";
+import { Skeleton } from "@mui/material";
+import dynamic from "next/dynamic";
 
 const DynamicAudioPlayer = dynamic(() => import("../components/AudioPlayer"), {
     ssr: false,
