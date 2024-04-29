@@ -13,10 +13,10 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
-import { RiFolderUploadLine } from "react-icons/ri";
-import { toast } from "react-toastify";
 import { PassGen } from "../utils/generateKeys";
+import { RiFolderUploadLine } from "react-icons/ri";
 import { getMockQuizData } from "./getMockQuizData";
+import { toast } from "react-toastify";
 
 const LEVEL = {
     Developer: 18,

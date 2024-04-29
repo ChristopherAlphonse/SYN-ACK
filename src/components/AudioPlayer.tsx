@@ -45,7 +45,7 @@ const AudioPlayer = () => {
     return (
         <div className="h-full flex justify-center items-center pt-30">
             <div className="w-screen max-w-9xl">
-                <h1 className="text-5xl md:text-9xl capitalize text-gray-600 leading-widest text-center pb-5 md:pb-10 tracking-widest">
+                <h1 className="text-2xl md:text-5xl capitalize text-gray-600 leading-widest text-center pb-5 md:pb-10 tracking-widest">
                     MUSIC
                 </h1>
                 <div className="relative flex flex-col rounded-xl border border-white shadow-player-dark bg-transparent justify-center mt-9 pt-9">

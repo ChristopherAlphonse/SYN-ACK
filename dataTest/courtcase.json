@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Significant Court Cases: What case established the principle of judicial review, empowering the Supreme Court to review and invalidate laws that conflict with the Constitution?",
+        "options": ["Marbury v. Madison", "McCulloch v. Maryland", "Gibbons v. Ogden", "Barron v. Baltimore"],
+        "correctAnswer": "Marbury v. Madison"
+    },
+    {
+        "question": "Significant Court Cases: Which case ruled that the federal government has implied powers not explicitly mentioned in the Constitution, and that states cannot impede those powers by taxing federal institutions?",
+        "options": ["Marbury v. Madison", "McCulloch v. Maryland", "Gibbons v. Ogden", "Barron v. Baltimore"],
+        "correctAnswer": "McCulloch v. Maryland"
+    },
+    {
+        "question": "Significant Court Cases: What case clarified the scope of Congress's power to regulate interstate commerce, affirming federal authority over state regulations in matters of trade between states?",
+        "options": ["Marbury v. Madison", "McCulloch v. Maryland", "Gibbons v. Ogden", "Barron v. Baltimore"],
+        "correctAnswer": "Gibbons v. Ogden"
+    },
+    {
+        "question": "Significant Court Cases: Which case held that the Bill of Rights only restrained the federal government, not state governments, thus limiting the protections of the Bill of Rights to actions by the federal government?",
+        "options": ["Marbury v. Madison", "McCulloch v. Maryland", "Gibbons v. Ogden", "Barron v. Baltimore"],
+        "correctAnswer": "Barron v. Baltimore"
+    },
+    {
+        "question": "Significant Court Cases: What case upheld the conviction of a defendant who had mailed an obscene publication, affirming the government's ability to regulate and prosecute the distribution of obscene material through the mail?",
+        "options": ["Rosen v. United States", "Plessy v. Ferguson", "West Virginia State Board of Education v. Barnette", "Tinker v. Des Moines"],
+        "correctAnswer": "Rosen v. United States"
+    },
+    {
+        "question": "Significant Court Cases: Which case upheld state segregation laws under the 'separate but equal' doctrine, allowing racial segregation in public facilities as long as they were deemed equal?",
+        "options": ["Rosen v. United States", "Plessy v. Ferguson", "West Virginia State Board of Education v. Barnette", "Tinker v. Des Moines"],
+        "correctAnswer": "Plessy v. Ferguson"
+    },
+    {
+        "question": "Significant Court Cases: What case ruled that mandatory flag salute requirements in public schools violated the First Amendment's protection of freedom of speech and religion?",
+        "options": ["West Virginia State Board of Education v. Barnette", "Tinker v. Des Moines", "Brandenburg v. Ohio", "Cohen v. California"],
+        "correctAnswer": "West Virginia State Board of Education v. Barnette"
+    },
+    {
+        "question": "Significant Court Cases: Which case held that students' free speech rights extend to public schools, unless the speech causes a substantial disruption to the educational environment?",
+        "options": ["West Virginia State Board of Education v. Barnette", "Tinker v. Des Moines", "Brandenburg v. Ohio", "Cohen v. California"],
+        "correctAnswer": "Tinker v. Des Moines"
+    },
+    {
+        "question": "Significant Court Cases: What case established a standard for evaluating restrictions on speech, ruling that advocacy of illegal conduct is protected unless it is directed to inciting imminent lawless action and is likely to incite such action?",
+        "options": ["West Virginia State Board of Education v. Barnette", "Tinker v. Des Moines", "Brandenburg v. Ohio", "Cohen v. California"],
+        "correctAnswer": "Brandenburg v. Ohio"
+    },
+    {
+        "question": "Significant Court Cases: Which case overturned a conviction for wearing a jacket with an expletive, affirming that offensive speech is protected under the First Amendment unless it incites immediate violence?",
+        "options": ["Roth v. United States", "Miller v. California", "Citizens United v. FEC", "Cohen v. California"],
+        "correctAnswer": "Cohen v. California"
+    },
+    {
+        "question": "Significant Court Cases: What case established that obscenity is not protected by the First Amendment and defined obscenity as material that lacks serious literary, artistic, political, or scientific value?",
+        "options": ["Roth v. United States", "Miller v. California", "Citizens United v. FEC", "Cohen v. California"],
+        "correctAnswer": "Roth v. United States"
+    },
+    {
+        "question": "Significant Court Cases: Which case refined the definition of obscenity, establishing a three-part test to determine if material is obscene and therefore not protected by the First Amendment?",
+        "options": ["Roth v. United States", "Miller v. California", "Citizens United v. FEC", "Cohen v. California"],
+        "correctAnswer": "Miller v. California"
+    },
+    {
+        "question": "Significant Court Cases: What case ruled that political spending by corporations, associations, and labor unions is a form of protected speech under the First Amendment, thus striking down certain restrictions on independent political expenditures by these entities?",
+        "options": ["Roth v. United States", "Miller v. California", "Citizens United v. FEC", "Cohen v. California"],
+        "correctAnswer": "Citizens United v. FEC"
+    },
+    {
+        "question": "Significant Court Cases: Which case affirmed an individual's right to possess firearms for self-defense within their home, striking down a Washington D.C. handgun ban as unconstitutional?",
+        "options": ["D.C. v. Heller", "McDonald v. Chicago", "US v. Miller", "Dred Scott v. Sandford"],
+        "correctAnswer": "D.C. v. Heller"
+    },
+    {
+        "question": "Significant Court Cases: What case applied the Second Amendment's right to keep and bear arms to state and local governments, effectively invalidating Chicago's handgun ban?",
+        "options": ["D.C. v. Heller", "McDonald v. Chicago", "US v. Miller", "Dred Scott v. Sandford"],
+        "correctAnswer": "McDonald v. Chicago"
+    },
+    {
+        "question": "Significant Court Cases: Which case held that the Second Amendment does not protect an individual's right to possess a sawed-off shotgun that is not reasonably related to the preservation or efficiency of a well-regulated militia?",
+        "options": ["D.C. v. Heller", "McDonald v. Chicago", "US v. Miller", "Dred Scott v. Sandford"],
+        "correctAnswer": "US v. Miller"
+    },
+    {
+        "question": "Significant Court Cases: What case ruled that African Americans, whether enslaved or free, were not citizens and could not sue in federal court, also declaring the Missouri Compromise unconstitutional?",
+        "options": ["Dred Scott v. Sandford", "Brown v. Board of Education", "Miller v. Johnson", "Korematsu v. United States"],
+        "correctAnswer": "Dred Scott v. Sandford"
+    },
+    {
+        "question": "Significant Court Cases: Which case declared state laws establishing separate public schools for black and white students to be unconstitutional, overturning the 'separate but equal' doctrine established by Plessy v. Ferguson?",
+        "options": ["Dred Scott v. Sandford", "Brown v. Board of Education", "Miller v. Johnson", "Korematsu v. United States"],
+        "correctAnswer": "Brown v. Board of Education"
+    },
+    {
+        "question": "Significant Court Cases: What case ruled that racial gerrymandering in redistricting, particularly if race was the predominant factor in drawing district lines, violates the Equal Protection Clause of the Fourteenth Amendment?",
+        "options": ["Dred Scott v. Sandford", "Brown v. Board of Education", "Miller v. Johnson", "Korematsu v. United States"],
+        "correctAnswer": "Miller v. Johnson"
+    },
+    {
+        "question": "Significant Court Cases: Which case upheld the constitutionality of the internment of Japanese Americans during World War II, stating that the need to protect against espionage outweighed Korematsu's individual rights, a decision now widely regarded as a grave mistake?",
+        "options": ["Dred Scott v. Sandford", "Brown v. Board of Education", "Miller v. Johnson", "Korematsu v. United States"],
+        "correctAnswer": "Korematsu v. United States"
+    },
+    {
+        "question": "Significant Court Cases: What case established the fundamental right to marry for same-sex couples under the Due Process and Equal Protection Clauses of the Fourteenth Amendment, legalizing same-sex marriage nationwide?",
+        "options": ["Obergefell v. Hodges", "Griswold v. Connecticut", "Roe v. Wade", "Planned Parenthood v. Casey"],
+        "correctAnswer": "Obergefell v. Hodges"
+    },
+    {
+        "question": "Significant Court Cases: Which case established the right to privacy in marital relations, striking down a Connecticut law that prohibited the use of contraceptives and laying the foundation for later decisions on reproductive rights?",
+        "options": ["Obergefell v. Hodges", "Griswold v. Connecticut", "Roe v. Wade", "Planned Parenthood v. Casey"],
+        "correctAnswer": "Griswold v. Connecticut"
+    },
+    {
+        "question": "Significant Court Cases: What case established a woman's constitutional right to have an abortion, striking down many state laws that restricted access to abortion in the first trimester?",
+        "options": ["Obergefell v. Hodges", "Griswold v. Connecticut", "Roe v. Wade", "Planned Parenthood v. Casey"],
+        "correctAnswer": "Roe v. Wade"
+    },
+    {
+        "question": "Significant Court Cases: Which case affirmed the constitutional right to have an abortion established in Roe v. Wade (1973) but allowed states to impose restrictions as long as they do not place an 'undue burden' on a woman's right to choose abortion before fetal viability?",
+        "options": ["Obergefell v. Hodges", "Griswold v. Connecticut", "Roe v. Wade", "Planned Parenthood v. Casey"],
+        "correctAnswer": "Planned Parenthood v. Casey"
+    },
+    {
+        "question": "Significant Court Cases: What case upheld certain provisions of the Federal Election Campaign Act of 1971, which imposed limits on campaign contributions and expenditures, while striking down others as violating the First Amendment?",
+        "options": ["Buckley v. Valeo", "Harper v. Virginia State Board of Elections", "Burwell v. Hobby Lobby", "Furman v. Georgia"],
+        "correctAnswer": "Buckley v. Valeo"
+    },
+    {
+        "question": "Significant Court Cases: Which case struck down poll taxes as unconstitutional, finding that they violated the Equal Protection Clause of the Fourteenth Amendment by disenfranchising low-income voters?",
+        "options": ["Buckley v. Valeo", "Harper v. Virginia State Board of Elections", "Burwell v. Hobby Lobby", "Furman v. Georgia"],
+        "correctAnswer": "Harper v. Virginia State Board of Elections"
+    },
+    {
+        "question": "Significant Court Cases: What case allowed closely-held, for-profit corporations to be exempt from a law its owners religiously objected to if there is a less restrictive means of furthering the law's interest?",
+        "options": ["Buckley v. Valeo", "Harper v. Virginia State Board of Elections", "Burwell v. Hobby Lobby", "Furman v. Georgia"],
+        "correctAnswer": "Burwell v. Hobby Lobby"
+    },
+    {
+        "question": "Significant Court Cases: Which case struck down death penalty laws as arbitrarily applied, finding that they violated the Eighth Amendment's prohibition of cruel and unusual punishment?",
+        "options": ["Buckley v. Valeo", "Harper v. Virginia State Board of Elections", "Burwell v. Hobby Lobby", "Furman v. Georgia"],
+        "correctAnswer": "Furman v. Georgia"
+    },
+    {
+        "question": "Significant Court Cases: What case denied a religious exemption from military service, holding that individuals cannot use religion to opt out of particular wars; they must object to all wars based on their religious beliefs?",
+        "options": ["Gillette v. United States", "Minersville School District v. Gobitis", "Oregon HR v. Smith", "Miranda v. Arizona"],
+        "correctAnswer": "Gillette v. United States"
+    },
+    {
+        "question": "Significant Court Cases: Which case upheld mandatory flag salute requirements in public schools, finding that they did not violate the First Amendment's protections of freedom of speech and religion?",
+        "options": ["Gillette v. United States", "Minersville School District v. Gobitis", "Oregon HR v. Smith", "Miranda v. Arizona"],
+        "correctAnswer": "Minersville School District v. Gobitis"
+    },
+    {
+        "question": "Significant Court Cases: What case held that states could deny unemployment benefits to individuals fired for violating state laws, even if the violation was part of a religious ritual, as long as the law was neutral and generally applicable?",
+        "options": ["Gillette v. United States", "Minersville School District v. Gobitis", "Oregon HR v. Smith", "Miranda v. Arizona"],
+        "correctAnswer": "Oregon HR v. Smith"
+    },
+    {
+        "question": "Significant Court Cases: Which case held that criminal suspects must be informed of their right to consult with an attorney and of their right against self-incrimination prior to questioning by police?",
+        "options": ["Gillette v. United States", "Minersville School District v. Gobitis", "Oregon HR v. Smith", "Miranda v. Arizona"],
+        "correctAnswer": "Miranda v. Arizona"
+    }
+]
