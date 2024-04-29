@@ -1,0 +1,183 @@
+[
+    {
+        "question": "Which Amazon EC2 pricing option provides a discount when you specify a number of EC2 instances to run a specific OS, instance family and size, and tenancy in one Region?",
+        "options": [
+            "Convertible Reserved Instances",
+            "EC2 Instance Savings Plans",
+            "Spot Instances"
+        ],
+        "correctAnswer": "Standard Reserved Instances"
+    },
+
+    {
+        "question": "Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?",
+        "options": [
+            "On-demand",
+            "EC2 Instance Savings Plans",
+            "Spot Instances"
+        ],
+        "correctAnswer": "EC2 Instance Savings Plans"
+    },
+    {
+        "question": "Which Amazon EC2 instance type is suitable for data warehousing applications?",
+        "options": [
+            "Memory optimized",
+            "Storage optimized",
+            "General purpose",
+            "Compute optimized"
+        ],
+        "correctAnswer": "Storage optimized"
+    },
+
+    {
+        "question": "Which Amazon EC2 instance type balances compute, memory, and networking resources?",
+        "options": [
+            "Memory optimized",
+            "Storage optimized",
+            "General purpose",
+            "Compute optimized"
+        ],
+        "correctAnswer": "General purpose"
+    },
+
+    {
+        "question": "Which Amazon EC2 instance type is ideal for high-performance databases?",
+        "options": [
+            "Memory optimized",
+            "Storage optimized",
+            "General purpose",
+            "Compute optimized"
+        ],
+        "correctAnswer": "Memory optimized"
+    },
+
+    {
+        "question": "Which Amazon EC2 instance type offers high-performance processors?",
+        "options": [
+            "Memory optimized",
+            "Storage optimized",
+            "General purpose",
+            "Compute optimized"
+        ],
+        "correctAnswer": "Compute optimized"
+    },
+    {
+        "question": "You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?",
+        "options": [
+            "On-premises",
+            "Infrastructure as a Service (IaaS)",
+            "Software as a Service (SaaS)",
+            "Platform as a Service (PaaS)"
+        ],
+        "correctAnswer": "Platform as a Service (PaaS)"
+    },
+    {
+        "question": "What is the pricing model of Cloud Computing?",
+        "options": [
+            "Discounts over time",
+            "Pay-as-you-go pricing",
+            "Pay once a year",
+            "Flat-rate pricing"
+        ],
+        "correctAnswer": "Pay-as-you-go pricing"
+    },
+    {
+        "question": "Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?",
+        "options": ["Edge Locations", "Availability Zones", "Regions"],
+        "correctAnswer": "Availability Zones"
+    },
+    {
+        "question": "Which of the following is NOT one of the Five Characteristics of Cloud Computing?",
+        "options": [
+            "Rapid elasticity and scalability",
+            "Multi-tenancy and resource pooling",
+            "Dedicated Support Agent to help you deploy applications",
+            "On-demand self service"
+        ],
+        "correctAnswer": "Dedicated Support Agent to help you deploy applications"
+    },
+    {
+        "question": "Which of the following services has a global scope?",
+        "options": ["EC2", "IAM", "Lambda", "Rekognition"],
+        "correctAnswer": "IAM"
+    },
+    {
+        "question": "Which are the 3 pricing fundamentals of the AWS Cloud?",
+        "options": [
+            "Compute, Storage, and Data transfer in the AWS Cloud",
+            "Compute, Networking, and Data transfer out of the AWS Cloud",
+            "Compute, Storage, and Data transfer out of the AWS Cloud",
+            "Storage, Functions, and Data transfer in the AWS Cloud"
+        ],
+        "correctAnswer": "Compute, Storage, and Data transfer in the AWS Cloud"
+    },
+    {
+        "question": "Which of the following options is NOT a point of consideration when choosing an AWS Region?",
+        "options": [
+            "Compliance with data governance",
+            "Latency",
+            "Capacity availability",
+            "Pricing"
+        ],
+        "correctAnswer": "Capacity availability"
+    },
+    {
+        "question": "AWS Regions are composed of?",
+        "options": [
+            "Two or more Edge Locations",
+            "One or more discrete data centers",
+            "Three or more Availability Zones"
+        ],
+        "correctAnswer": "Three or more Availability Zones"
+    },
+    {
+        "question": "Which of the following is NOT an advantage of Cloud Computing?",
+        "options": [
+            "Trade capital expense (CAPEX) for operational expense (OPEX)",
+            "Train your employees less",
+            "Go global in minutes",
+            "Stop spending money running and maintaining data centers"
+        ],
+        "correctAnswer": "Train your employees less"
+    },
+    {
+        "question": "Which of the following is the definition of Cloud Computing?",
+        "options": [
+            "Rapidly develop, test and launch software applications",
+            "Automatic and quick ability to acquire resources as you need them and release resources when you no longer need them",
+            "On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user",
+            "Change resource types when needed"
+        ],
+        "correctAnswer": "On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user"
+    },
+    {
+        "question": "What defines the distribution of responsibilities for security in the AWS Cloud?",
+        "options": [
+            "AWS Pricing Fundamentals",
+            "The Shared Responsibility Model",
+            "AWS Acceptable Use Policy",
+            "The AWS Management Console"
+        ],
+        "correctAnswer": "The Shared Responsibility Model"
+    },
+    {
+        "question": "A company would like to benefit from the advantages of the Public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?",
+        "options": [
+            "Private Cloud",
+            "Public Cloud",
+            "Hybrid Cloud",
+            "Community Cloud"
+        ],
+        "correctAnswer": "Hybrid Cloud"
+    },
+    {
+        "question": "What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?",
+        "options": [
+            "Building a gaming application",
+            "Deploying a website",
+            "Run analytics on stolen content",
+            "Backup your data"
+        ],
+        "correctAnswer": "Backup your data"
+    }
+]

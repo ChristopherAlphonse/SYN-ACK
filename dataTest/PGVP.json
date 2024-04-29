@@ -1,0 +1,606 @@
+[
+    {
+        "question": "Which contributor to the Enlightenment identified two key aspects to our existence, liberty and property?",
+        "options": ["John Locke", "Thomas Hobbes", "Montesquieu", "Adam Smith"],
+        "correctAnswer": "John Locke"
+    },
+    {
+        "question": "What is the purpose of the Occupy Wall Street movement?",
+        "options": [
+            "It advocates for a correction of today's economic inequalities.",
+            "It advocates for increased minority voting rights.",
+            "It speaks out against the racial inequality in employment.",
+            "It advocates for greater regulation of religious ideologies."
+        ],
+        "correctAnswer": "It advocates for a correction of today's economic inequalities."
+    },
+    {
+        "question": "There were several factors that significantly contributed to the government structure outlined in the Articles of Confederation. What was one of them?",
+        "options": [
+            "Americans wished the government to be representative of the states.",
+            "The people wanted a strong central government to gather defenses in times of war.",
+            "The states were unable to protect American ships from attacks by the Barbary pirates.",
+            "Taxation was a well-recognized way for the national government to retain control over the individual states."
+        ],
+        "correctAnswer": "Americans wished the government to be representative of the states."
+    },
+    {
+        "question": "What was a major difference between the Articles of Confederation and the Constitution?",
+        "options": [
+            "The Articles of Confederation required states to provide troops for national defense.",
+            "The Articles of Confederation required states to pay for land claims west of the Appalachian Mountains.",
+            "The Articles of Confederation did not provide for a national judiciary.",
+            "The Articles of Confederation did not allow states to establish banks."
+        ],
+        "correctAnswer": "The Articles of Confederation did not provide for a national judiciary."
+    },
+    {
+        "question": "What did the Great Compromise between the Virginia Plan and the New Jersey Plan that was finalized in the Constitution establish?",
+        "options": [
+            "Authority to tax and regulate trade",
+            "National armed forces",
+            "A two-chamber Congress",
+            "A national currency"
+        ],
+        "correctAnswer": "A two-chamber Congress"
+    },
+    {
+        "question": "What were the results of the three-fifths compromise?",
+        "options": [
+            "It required slave states to pay taxes on three-fifths of all imported enslaved persons.",
+            "It allowed slave states to count three-fifths of their enslaved population for the purpose of representation.",
+            "It required slave states to pay taxes on three-fifths of enslaved persons sold domestically.",
+            "It allowed free states to pay taxes on only three-fifths of its foreign imports."
+        ],
+        "correctAnswer": "It allowed slave states to count three-fifths of their enslaved population for the purpose of representation."
+    },
+    {
+        "question": "What was a Federalist argument in support of the ratification of the Constitution?",
+        "options": [
+            "A strong national government is better for the representation of small landowners of modest wealth.",
+            "A strong national government is better for national defense and economic growth.",
+            "Strong state governments are better for funding internal improvements like roads.",
+            "Strong state governments are better for facilitating business transactions."
+        ],
+        "correctAnswer": "A strong national government is better for national defense and economic growth."
+    },
+    {
+        "question": "Which concepts were James Madison referencing when he stated, 'Ambition must be made to counteract ambition' in Federalist, no. 51?",
+        "options": [
+            "Life and the pursuit of happiness",
+            "Free enterprise and competition",
+            "Equality and individual rights",
+            "Separation of powers and checks and balances"
+        ],
+        "correctAnswer": "Separation of powers and checks and balances"
+    },
+    {
+        "question": "What is a judicial check on the executive branch?",
+        "options": [
+            "The Supreme Court can veto an executive order.",
+            "The Supreme Court can declare actions by the executive branch unconstitutional.",
+            "The Supreme Court can override an executive pardon.",
+            "The Supreme Court can block a declaration of war."
+        ],
+        "correctAnswer": "The Supreme Court can declare actions by the executive branch unconstitutional."
+    },
+    {
+        "question": "What describes a legislative check on the judicial branch?",
+        "options": [
+            "Congress can limit the term of a Supreme Court justice.",
+            "Congress can change the Supreme Court's jurisdiction.",
+            "Congress can override a Supreme Court decision.",
+            "Congress can appoint federal judges."
+        ],
+        "correctAnswer": "Congress can override a Supreme Court decision."
+    },
+    {
+        "question": "What best explains why individual members of the Senate have more legislative power than individual members of the House of Representatives?",
+        "options": [
+            "The higher minimum age requirement in the Senate",
+            "The ability of the Senate to approve members of the president's cabinet",
+            "The increased length of the term of office in the Senate",
+            "The smaller total number of Senate members compared to the number of representatives"
+        ],
+        "correctAnswer": "The smaller total number of Senate members compared to the number of representatives"
+    },
+    {
+        "question": "What describes the equal proportions method of congressional apportionment?",
+        "options": [
+            "Congressional districts are drawn in order to maintain similar numbers of voters in each district.",
+            "Congressional districts are drawn to guarantee that each district will be equally represented in the Senate.",
+            "Congressional districts are drawn so that states are each given an equal number of members in the House of Representatives.",
+            "Congressional districts are drawn so each will have an equal number of members of the Republican and Democratic parties"
+        ],
+        "correctAnswer": "Congressional districts are drawn in order to maintain similar numbers of voters in each district."
+    },
+    {
+        "question": "What is an example of a congressional allocation that would influence the national budget to help a member of congress's district or state?",
+        "options": [
+            "Money appropriated to specific projects that benefit a congressperson's personal businesses",
+            "Funds for the building of an airport in a congressperson's district",
+            "Exemptions written into the law that only benefit a certain political action committee",
+            "A congressperson's support for a colleague's bill if the colleague will support the congresspersons's bill"
+        ],
+        "correctAnswer": "Funds for the building of an airport in a congressperson's district"
+    },
+    {
+        "question": "Why is the House Rules Committee one of the most powerful committees in the U.S. House of Representatives?",
+        "options": [
+            "It defines the process of selecting the majority leader in the House of Representatives.",
+            "It determines the rules for debate and in what order to schedule consideration of bills in the House.",
+            "It sets rules that must be followed by both the House of Representatives and the Senate.",
+            "It is made up of senior representatives who have served at least three terms in office."
+        ],
+        "correctAnswer": "It determines the rules for debate and in what order to schedule consideration of bills in the House."
+    },
+    {
+        "question": "Which constitutional amendment established term limits for the president?",
+        "options": [
+            "The Nineteenth Amendment",
+            "The Twentieth Amendment",
+            "The Twenty-Second Amendment",
+            "The Seventeenth Amendment"
+        ],
+        "correctAnswer": "The Twenty-Second Amendment"
+    },
+    {
+        "question": "What is the purpose of executive agreements?",
+        "options": [
+            "To exercise the use of the military without requiring a declaration of war from Congress",
+            "To establish agreements with foreign countries without congressional approval",
+            "To override congressional legislation that the president does not support",
+            "To influence domestic policy without passing legislation through Congress"
+        ],
+        "correctAnswer": "To establish agreements with foreign countries without congressional approval"
+    },
+    {
+        "question": "Which statement best describes 'executive privilege'?",
+        "options": [
+            "When a president successfully asserts a power without impeachment, that power becomes assigned to the executive branch.",
+            "A president may exercise any power because of the checks and balances provision by the other branches of government.",
+            "A president may withhold confidential communication from the courts and the legislative branch.",
+            "A president may expand power and authority through the use of the cabinet, which is not restricted or limited by the Constitution"
+        ],
+        "correctAnswer": "A president may withhold confidential communication from the courts and the legislative branch."
+    },
+    {
+        "question": "How can an outgoing president exert significant influence over a new president’s administration?",
+        "options": [
+            "By having a budget that affects the ability of the incoming administration to pursue new initiatives",
+            "By continuing to operate through the first 100 days during the incoming administration's transition",
+            "By reserving a seat in the new president's cabinet",
+            "By participating in agenda setting during the transition"
+        ],
+        "correctAnswer": "By participating in agenda setting during the transition"
+    },
+    {
+        "question": "What describes the importance of the Supreme Court decision in Marbury v. Madison?",
+        "options": [
+            "It reinforced congressional impeachment power.",
+            "It protected presidential control over the military.",
+            "It established the principle of judicial review.",
+            "It affirmed the presidential use of veto power."
+        ],
+        "correctAnswer": "It established the principle of judicial review."
+    },
+    {
+        "question": "How are individuals nominated to the Supreme Court?",
+        "options": [
+            "They are confirmed by the House of Representatives.",
+            "They are chosen from the available constitutional law professors.",
+            "They are selected from the current pool of federal judges.",
+            "They are chosen by the president of the United States."
+        ],
+        "correctAnswer": "They are chosen by the president of the United States."
+    },
+    {
+        "question": "How does the 14th Amendment affect the powers of the federal judiciary?",
+        "options": [
+            "It expanded the judiciary’s power to rule in disputes between states.",
+            "It expanded the judiciary’s power over states that applied laws unfairly.",
+            "It restricted the judiciary’s power to national issues instead of state issues.",
+            "It restricted the judiciary’s power to override state constitutions."
+        ],
+        "correctAnswer": "It expanded the judiciary’s power over states that applied laws unfairly."
+    },
+    {
+        "question": "What is a power reserved for the states?",
+        "options": [
+            "Conducting foreign relations",
+            "Declaring war",
+            "Coining money",
+            "Conducting elections"
+        ],
+        "correctAnswer": "Conducting elections"
+    },
+    {
+        "question": "Which constitutional amendment allows states to reserve powers not explicitly granted to the national government?",
+        "options": [
+            "The Twelfth Amendment",
+            "The Tenth Amendment",
+            "The Nineteenth Amendment",
+            "The Eighth Amendment"
+        ],
+        "correctAnswer": "The Tenth Amendment"
+    },
+    {
+        "question": "What did the Supreme Court's ruling in Gibbons v. Ogden establish?",
+        "options": [
+            "A loose constructionist interpretation of the commerce clause",
+            "A strict constructionist interpretation of the supremacy clause",
+            "A basis for exercising broad states' rights under the Tenth Amendment",
+            "A foundation for the constitutional principle of judicial review"
+        ],
+        "correctAnswer": "A loose constructionist interpretation of the commerce clause"
+    },
+    {
+        "question": "How do most states award votes in the Electoral College?",
+        "options": [
+            "The candidate who wins the popular vote nationwide gets all the electoral votes for the state.",
+            "The candidate who wins the popular vote in the state gets all the electoral votes for the state.",
+            "Candidates get electoral votes in proportion to their share of the statewide popular vote.",
+            "Candidates get one electoral vote for each congressional district where they win the popular vote."
+        ],
+        "correctAnswer": "The candidate who wins the popular vote in the state gets all the electoral votes for the state."
+    },
+
+    {
+        "question": "Which amendment provided for the separate election of the president and vice president?",
+        "options": [
+            "The Twelfth Amendment",
+            "The Fourteenth Amendment",
+            "The Eleventh Amendment",
+            "The Thirteenth Amendment"
+        ],
+        "correctAnswer": "The Twelfth Amendment"
+    },
+    {
+        "question": "What is a characteristic of an open primary system?",
+        "options": [
+            "Voters registered with any political party are allowed to vote for candidates in any party during the primary.",
+            "Candidates from every political party compete against each other until two are selected for a general election.",
+            "Voters are required to meet together to publicly declare their support for a primary candidate.",
+            "Any resident in the district is allowed to run as a candidate for any party during the primary."
+        ],
+        "correctAnswer": "Voters registered with any political party are allowed to vote for candidates in any party during the primary."
+    },
+    {
+        "question": "What is true about campaign ads in primary elections?",
+        "options": [
+            "They often discourage people from taking actions to vote.",
+            "They are primarily aimed at more independent voters.",
+            "They generally mention all participating political parties.",
+            "They often try to raise the name recognition of a candidate."
+        ],
+        "correctAnswer": "They often try to raise the name recognition of a candidate."
+    },
+    {
+        "question": "What was the purpose of creating the Federal Election Commission in the 1970s?",
+        "options": [
+            "To manage the operation of polling stations",
+            "To limit the influence of negative campaigning",
+            "To ensure transparency in campaign financing",
+            "To regulate the influence of super PACs"
+        ],
+        "correctAnswer": "To ensure transparency in campaign financing"
+    },
+    {
+        "question": "Who can vote for a United States representative?",
+        "options": [
+            "Any voter in the United States",
+            "Any voter in the representative’s state",
+            "Any voter in the representative’s congressional district",
+            "Any voter registered in the representative’s party"
+        ],
+        "correctAnswer": "Any voter in the representative’s congressional district"
+    },
+    {
+        "question": "What is the definition of inside lobbying?",
+        "options": [
+            "An attempt to sway government decision-making targeted directly at government officials",
+            "An attempt to sway government decision-making through media-covered events",
+            "An attempt to sway government decision-making by proposing legislative policies",
+            "An attempt to sway government decision-making by influencing public opinion"
+        ],
+        "correctAnswer": "An attempt to sway government decision-making targeted directly at government officials"
+    },
+    {
+        "question": "What was determined in U.S. v. Windsor and Obergefell v. Hodges?",
+        "options": [
+            "They declared DOMA unconstitutional and legalized same-sex marriage nationwide.",
+            "They declared that spending money in an election was essentially equivalent to free speech.",
+            "They removed any restrictive limits to how much money unions or corporations can donate to Super PACs.",
+            "They required the registration of lobbyists representing any interest group under certain circumstances."
+        ],
+        "correctAnswer": "They declared DOMA unconstitutional and legalized same-sex marriage nationwide."
+    },
+    {
+        "question": "How do Super PACs operate?",
+        "options": [
+            "They cannot give money directly to individual candidates.",
+            "They are allowed to give up to $15,000 per year to any national party.",
+            "They collect money to donate to or against candidates or issues.",
+            "They can give no more than $5000 per candidate, per election."
+        ],
+        "correctAnswer": "They collect money to donate to or against candidates or issues."
+    },
+    {
+        "question": "What is one common method of influence used by interest groups?",
+        "options": [
+            "They target the staff of opposing congressional members to educate them on relevant policy.",
+            "They target cabinet members viewed as more sympathetic to their cause.",
+            "They target members of congressional committees that have special influence on relevant legislative areas.",
+            "They target celebrities and other highly influential figures to sway congressional voting."
+        ],
+        "correctAnswer": "They target members of congressional committees that have special influence on relevant legislative areas."
+    },
+    {
+        "question": "In which case did the Supreme Court establish that spending on political campaigns constituted political speech that is protected by the First Amendment?",
+        "options": [
+            "Shelby County v. Holder",
+            "Buckley v. Valeo",
+            "Breedlove v. Suttles",
+            "Citizens United v. Federal Election Commission"
+        ],
+        "correctAnswer": "Citizens United v. Federal Election Commission"
+    },
+
+    {
+        "question": "What is closely associated with a citizen being less likely to vote?",
+        "options": [
+            "Having a college education",
+            "Being an older adult",
+            "Having a lower income job",
+            "Being a woman"
+        ],
+        "correctAnswer": "Having a lower income job"
+    },
+    {
+        "question": "What was required by states under the 1993 National Voter Registration Act?",
+        "options": [
+            "It required states to demand proof of citizenship before allowing individuals to register to vote.",
+            "It required states to allow citizens to register to vote when they sign up for driver’s licenses.",
+            "It required states to allow driver’s licenses as identification for those registering to vote.",
+            "It required states to allow individuals to register to vote at the same time they go to vote."
+        ],
+        "correctAnswer": "It required states to allow citizens to register to vote when they sign up for driver’s licenses."
+    },
+    {
+        "question": "A voter casts a ballot for a candidate based solely on the candidate’s previous vote on a tax cut. Which type of voting decision is demonstrated in this situation?",
+        "options": [
+            "Inspective",
+            "Retrospective",
+            "Introspective",
+            "Prospective"
+        ],
+        "correctAnswer": "Retrospective"
+    },
+    {
+        "question": "What is one method used by Southern states to restrict African American voting during the early 1960s?",
+        "options": [
+            "Property ownership requirements",
+            "Godfather clauses",
+            "Voter identification laws",
+            "Literacy tests"
+        ],
+        "correctAnswer": "Literacy tests"
+    },
+    {
+        "question": "What was the impact of the Supreme Court’s decision in Plessy v. Ferguson?",
+        "options": [
+            "It allowed states to use literacy tests to determine eligibility to vote.",
+            "It prohibited African Americans from holding elected offices.",
+            "It prevented African Americans from serving on juries.",
+            "It allowed racial segregation by establishing the 'separate but equal' doctrine."
+        ],
+        "correctAnswer": "It allowed racial segregation by establishing the 'separate but equal' doctrine."
+    },
+    {
+        "question": "Which constitutional amendment guarantees the right of a public trial and representation by an attorney?",
+        "options": [
+            "Sixth Amendment",
+            "Fourth Amendment",
+            "Eighth Amendment",
+            "Fifth Amendment"
+        ],
+        "correctAnswer": "Sixth Amendment"
+    },
+    {
+        "question": "What is the focus of multiple amendments in the Bill of Rights?",
+        "options": [
+            "The rights of criminal defendants",
+            "The rights of non-U.S. citizens",
+            "The powers of the Supreme Court",
+            "The powers of elected leaders"
+        ],
+        "correctAnswer": "The rights of criminal defendants"
+    },
+    {
+        "question": "In which types of cases would the Supreme Court use the standard of strict scrutiny?",
+        "options": [
+            "Cases that restrict fundamental rights of protected classes",
+            "Cases concerning restrictions of rights against foreign nationals",
+            "Cases related to workplace discrimination against women",
+            "Cases involving discrimination against people with lower incomes"
+        ],
+        "correctAnswer": "Cases that restrict fundamental rights of protected classes"
+    },
+    {
+        "question": "Which term is defined as a power of the government to take or use property for a public purpose?",
+        "options": [
+            "Constitutional right",
+            "Voir dire",
+            "Eminent domain",
+            "Common law"
+        ],
+        "correctAnswer": "Eminent domain"
+    },
+    {
+        "question": "What describes the Supreme Court's ruling in Mapp v. Ohio?",
+        "options": [
+            "Law enforcement officers are required to have a warrant for a search even if consent is given by the suspect.",
+            "Law enforcement officers do not need a search warrant when using drug-sniffing dogs.",
+            "Evidence obtained without a warrant falls under the exclusionary rule and is not admissible.",
+            "Evidence obtained because it was in plain view is not admissible without a warrant"
+        ],
+        "correctAnswer": "Evidence obtained without a warrant falls under the exclusionary rule and is not admissible."
+    },
+
+    {
+        "question": "Which amendment provides the rights for individuals to question those who testify against them and to call witnesses for their own defense?",
+        "options": [
+            "The Eighth Amendment",
+            "The Fifth Amendment",
+            "The Sixth Amendment",
+            "The Fourth Amendment"
+        ],
+        "correctAnswer": "The Sixth Amendment"
+    },
+    {
+        "question": "What does the U.S. Supreme Court's interpretation of the Fifth Amendment's right to due process mean for citizens?",
+        "options": [
+            "The government cannot limit the rights of citizens, except in the case that the Supreme Court gives the government authority over a specific right.",
+            "The government must use consistent and fair procedures if it wants to limit a citizen's rights or seize private property.",
+            "Citizens are protected from seizure of property by the government as long as they follow specific procedures to avoid it.",
+            "Citizens have the right to dispute a court's decision if they do not agree with it, but the government ultimately determines guilt or innocence."
+        ],
+        "correctAnswer": "The government must use consistent and fair procedures if it wants to limit a citizen's rights or seize private property."
+    },
+    {
+        "question": "Why was the Supreme Court’s ruling in Brandenburg v. Ohio significant for freedom of speech?",
+        "options": [
+            "It extended federal protection for abstract discussions of violence and overthrow of the government.",
+            "It limited federal protection for symbolic political speech, such as flag burning.",
+            "It limited federal protection for obscene speech, such as pornographic magazines.",
+            "It extended federal protection for defamatory speech, such as tabloid journalism."
+        ],
+        "correctAnswer": "It extended federal protection for abstract discussions of violence and overthrow of the government."
+    },
+    {
+        "question": "What describes the effect of the Supreme Court's ruling in Burwell v. Hobby Lobby Stores?",
+        "options": [
+            "Businesses do not have to provide employees access to birth control if it violates the business owner's religious beliefs.",
+            "Businesses are not allowed to deny services to married same-sex couples that are provided to other married couples.",
+            "States are not allowed to enact laws that make relationships between same-sex couples illegal.",
+            "States cannot deny healthcare benefits to employees' same-sex marriage partners."
+        ],
+        "correctAnswer": "Businesses do not have to provide employees access to birth control if it violates the business owner's religious beliefs."
+    },
+    {
+        "question": "What describes the Supreme Court's ruling in Texas v. Johnson?",
+        "options": [
+            "Fourteenth Amendment protections extend to all minority groups.",
+            "Flag burning is constitutionally protected political speech.",
+            "Laws banning same-sex relationships are unconstitutional.",
+            "Nonthreatening hate speech is constitutionally protected."
+        ],
+        "correctAnswer": "Flag burning is constitutionally protected political speech."
+    },
+    {
+        "question": "What is an aspect of the Supreme Court's Lemon test when determining whether a law violates the establishment clause?",
+        "options": [
+            "It must not be offensive to a major world religion.",
+            "It must not inhibit nor advance a particular religious practice.",
+            "It must uphold Judeo-Christian values.",
+            "It must not make any reference to a deity or a higher power."
+        ],
+        "correctAnswer": "It must not inhibit nor advance a particular religious practice."
+    },
+    {
+        "question": "What was a result of Obergefell v. Hodges?",
+        "options": [
+            "It established the guiding principle for segregation until the 1950s.",
+            "It affirmed the equal protection of same-sex couples under the Fifth Amendment.",
+            "It upheld that the right to privacy included a woman's right to an abortion.",
+            "It required that same-sex marriages be recognized across states."
+        ],
+        "correctAnswer": "It required that same-sex marriages be recognized across states."
+    },
+    {
+        "question": "What was the result of Roe v. Wade?",
+        "options": [
+            "It allowed Jim Crow laws to continue.",
+            "It decided that segregated schools violated the Fourteenth Amendment.",
+            "It affirmed the equal protection of same-sex couples under the Fifth Amendment.",
+            "It upheld that the right to privacy included a woman's right to an abortion."
+        ],
+        "correctAnswer": "It upheld that the right to privacy included a woman's right to an abortion."
+    },
+    {
+        "question": "How did the Civil War Amendments affect individual rights in the United States?",
+        "options": [
+            "They restricted individual rights for men but expanded rights for women.",
+            "They restricted individual rights by narrowing protections to men only.",
+            "They expanded individual rights by extending protections to people of color.",
+            "They expanded individual rights for people of color but restricted rights for people who were white."
+        ],
+        "correctAnswer": "They expanded individual rights by extending protections to people of color."
+    },
+    {
+        "question": "What is an appropriate characterization of media agenda setting?",
+        "options": [
+            "Agenda setting censors new stories that are unfavorable to sponsors.",
+            "Agenda setting is based on modern meeting management practices.",
+            "Agenda setting is an attempt to cover all news without limit.",
+            "Agenda setting determines which events deserve public attention."
+        ],
+        "correctAnswer": "Agenda setting determines which events deserve public attention."
+    },
+    {
+        "question": "What describes the principle of prior restraint?",
+        "options": [
+            "News agencies require permission from government officials before publishing stories.",
+            "News agencies need court approval to publish stories about government corruption.",
+            "The government can prevent some information from being published if it affects national security.",
+            "The government can censor stories that could damage the country's reputation internationally."
+        ],
+        "correctAnswer": "The government can prevent some information from being published if it affects national security."
+    },
+
+    {
+        "question": "What describes the principle of prior restraint?",
+        "options": [
+            "News agencies require permission from government officials before publishing stories.",
+            "News agencies need court approval to publish stories about government corruption.",
+            "The government can prevent some information from being published if it affects national security.",
+            "The government can censor stories that could damage the country's reputation internationally."
+        ],
+        "correctAnswer": "The government can prevent some information from being published if it affects national security."
+    },
+    {
+        "question": "Which legislation required the executive branch of the U.S. government to provide information requested by citizens?",
+        "options": [
+            "The Radio Act of 1927",
+            "Branzburg v. Hayes (1972)",
+            "The Freedom of Information Act",
+            "Miller v. California (1973)"
+        ],
+        "correctAnswer": "The Freedom of Information Act"
+    },
+    {
+        "question": "How do presidents use mandates after an election?",
+        "options": [
+            "They use their new power to punish political rivals.",
+            "They elect members of their party to local offices.",
+            "They plan reelection for the next campaign immediately.",
+            "They use their public support to implement campaign promises."
+        ],
+        "correctAnswer": "They use their public support to implement campaign promises."
+    },
+    {
+        "question": "Why is the Supreme Court affected less by public opinion than other government organizations?",
+        "options": [
+            "The justices hear cases people are familiar with.",
+            "The justices are not elected but are appointed.",
+            "The justices are elected by the Electoral College.",
+            "The justices decide cases based on legislative support."
+        ],
+        "correctAnswer": "The justices are not elected but are appointed."
+    },
+    {
+        "question": "What is one common demographic group?",
+        "options": ["Secondary employment", "Name", "Income", "Experience"],
+        "correctAnswer": "Income"
+    }
+]

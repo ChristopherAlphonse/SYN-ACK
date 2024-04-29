@@ -13,6 +13,10 @@ module.exports = withMT({
                 poppins: ["Poppins", "sans-serif"],
                 spaceGrotesk: ["Space Grotesk", "sans-serif"],
             },
+            fontSize: {
+                title: "1.25em",
+                body: "1em",
+            },
         },
     },
 

@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Amendment: What amendment protects the right to freedom of speech, press, and religion?",
+        "options": ["1st Amendment", "2nd Amendment", "5th Amendment", "10th Amendment"],
+        "correctAnswer": "1st Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment guarantees the right to keep and bear arms?",
+        "options": ["1st Amendment", "2nd Amendment", "5th Amendment", "10th Amendment"],
+        "correctAnswer": "2nd Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment prohibits the quartering of troops in private homes?",
+        "options": ["1st Amendment", "2nd Amendment", "3rd Amendment", "10th Amendment"],
+        "correctAnswer": "3rd Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment protects against unreasonable searches and seizures?",
+        "options": ["4th Amendment", "5th Amendment", "6th Amendment", "8th Amendment"],
+        "correctAnswer": "4th Amendment"
+    },
+    {
+        "question": "Amendment: What amendment protects against self-incrimination, often referred to as 'pleading the 5th'?",
+        "options": ["3rd Amendment", "5th Amendment", "7th Amendment", "9th Amendment"],
+        "correctAnswer": "5th Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment guarantees the right to a speedy trial?",
+        "options": ["5th Amendment", "6th Amendment", "7th Amendment", "8th Amendment"],
+        "correctAnswer": "6th Amendment"
+    },
+    {
+        "question": "Amendment: What amendment guarantees the right to a trial by jury in civil cases?",
+        "options": ["5th Amendment", "6th Amendment", "7th Amendment", "8th Amendment"],
+        "correctAnswer": "7th Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment prohibits excessive bail, fines, and cruel and unusual punishment?",
+        "options": ["6th Amendment", "7th Amendment", "8th Amendment", "9th Amendment"],
+        "correctAnswer": "8th Amendment"
+    },
+    {
+        "question": "Amendment: Which amendment protects rights not specifically enumerated by the Constitution?",
+        "options": ["7th Amendment", "8th Amendment", "9th Amendment", "10th Amendment"],
+        "correctAnswer": "9th Amendment"
+    },
+    {
+        "question": "Amendment: What amendment states that powers not delegated to the U.S. are reserved to the states or the people?",
+        "options": ["8th Amendment", "9th Amendment", "10th Amendment", "11th Amendment"],
+        "correctAnswer": "10th Amendment"
+    }
+]

@@ -135,7 +135,7 @@ const MyQuiz: React.FC = () => {
 
     return (
         <div className="px-4">
-            <h1 className="text-5xl md:text-9xl capitalize text-gray-600 leading-widest text-center pb-10 md:pb-20 tracking-widest">
+            <h1 className="text-2xl md:text-5xl capitalize text-gray-600 leading-widest text-center pb-10 md:pb-20 tracking-widest">
                 QUIZ
             </h1>
             <div className="pb-3">
@@ -156,7 +156,7 @@ const MyQuiz: React.FC = () => {
             {!showStats ? (
                 <Card>
                     <CardContent>
-                        <Typography variant="h5" component="div" gutterBottom>
+                        <Typography variant="h6" component="div" gutterBottom>
                             {questions[currentQuestionIndex].question}
                         </Typography>
                         <FormControl component="fieldset">
