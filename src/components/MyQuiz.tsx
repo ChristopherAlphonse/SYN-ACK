@@ -13,17 +13,9 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
-import { PassGen } from "../utils/generateKeys";
 import { RiFolderUploadLine } from "react-icons/ri";
-import { getMockQuizData } from "./getMockQuizData";
 import { toast } from "react-toastify";
-
-const LEVEL = {
-    Developer: 18,
-};
-
-const myPass = new PassGen(LEVEL);
-const genID = myPass.generateID();
+import { getMockQuizData } from "./getMockQuizData";
 
 const MyQuiz: React.FC = () => {
     const [initialQuestions, setInitialQuestions] = useState(
@@ -169,7 +161,7 @@ const MyQuiz: React.FC = () => {
                                 {questions[currentQuestionIndex].options.map(
                                     (option: string) => (
                                         <FormControlLabel
-                                            key={genID}
+                                            key={crypto.randomUUID()}
                                             value={option}
                                             control={<Radio />}
                                             label={option}
