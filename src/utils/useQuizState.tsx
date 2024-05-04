@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
 
 import { getMockQuizData } from "../components/getMockQuizData";
 
@@ -47,11 +47,11 @@ export const useQuizState = () => {
 
 export const handleFileUpload = (
     file: File,
-    setLoadedQuestions: (data: any[]) => void,
-    setCurrentQuestionIndex: (index: number) => void,
-    setCorrectAnswersCount: (count: number) => void,
-    setSelectedOption: (option: string) => void,
-    setShowStats: (show: boolean) => void,
+    setLoadedQuestions: Dispatch<SetStateAction<never[]>>,
+    setCurrentQuestionIndex: Dispatch<SetStateAction<number>>,
+    setCorrectAnswersCount: Dispatch<SetStateAction<number>>,
+    setSelectedOption: Dispatch<SetStateAction<string>>,
+    setShowStats: Dispatch<SetStateAction<boolean>>,
     toast: any,
 ) => {
     const reader = new FileReader();
