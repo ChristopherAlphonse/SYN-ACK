@@ -11,24 +11,30 @@ import {
     RadioGroup,
     Typography,
 } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { handleFileUpload, useQuizState } from "../utils/useQuizState";
 
+import { useEffect } from "react";
 import { RiFolderUploadLine } from "react-icons/ri";
-import { getMockQuizData } from "./getMockQuizData";
 import { toast } from "react-toastify";
 
 const MyQuiz: React.FC = () => {
-    const [initialQuestions, setInitialQuestions] = useState(
-        JSON.parse(localStorage.getItem("quizData") ?? "null") ||
-            getMockQuizData(),
-    );
-    const [questions, setQuestions] = useState(initialQuestions || []);
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [selectedOption, setSelectedOption] = useState("");
-    const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
-    const [wrongAnswersCount, setWrongAnswersCount] = useState(0);
-    const [showStats, setShowStats] = useState(false);
-    const [loadedQuestions, setLoadedQuestions] = useState([]);
+    const {
+        initialQuestions,
+        questions,
+        currentQuestionIndex,
+        selectedOption,
+        correctAnswersCount,
+        wrongAnswersCount,
+        showStats,
+        loadedQuestions,
+        setLoadedQuestions,
+        setQuestions,
+        setCurrentQuestionIndex,
+        setSelectedOption,
+        setCorrectAnswersCount,
+        setWrongAnswersCount,
+        setShowStats,
+    } = useQuizState();
 
     useEffect(() => {
         localStorage.setItem("quizData", JSON.stringify(initialQuestions));
@@ -39,29 +45,6 @@ const MyQuiz: React.FC = () => {
             setQuestions(loadedQuestions);
         }
     }, [loadedQuestions]);
-
-    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const file = event.target.files?.[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = (event) => {
-                try {
-                    const jsonData = JSON.parse(event.target?.result as string);
-                    setLoadedQuestions(jsonData);
-                    setCurrentQuestionIndex(0);
-                    setCorrectAnswersCount(0);
-                    setSelectedOption("");
-                    setShowStats(false);
-                } catch (error) {
-                    console.error("Error parsing JSON file:", error);
-                    toast.error(
-                        "Error parsing JSON file. Please upload a valid JSON file.",
-                    );
-                }
-            };
-            reader.readAsText(file);
-        }
-    };
 
     const handleRestart = () => {
         if (loadedQuestions.length > 0 || !initialQuestions) {
@@ -122,8 +105,22 @@ const MyQuiz: React.FC = () => {
         }
     };
 
-    // const currentQuestions =
-    //     loadedQuestions.length > 0 ? loadedQuestions : questions;
+    const handleFileInputChange = (
+        event: React.ChangeEvent<HTMLInputElement>,
+    ) => {
+        const file = event.target.files?.[0];
+        if (file) {
+            handleFileUpload(
+                file,
+                setLoadedQuestions,
+                setCurrentQuestionIndex,
+                setCorrectAnswersCount,
+                setSelectedOption,
+                setShowStats,
+                toast,
+            );
+        }
+    };
 
     return (
         <div className="px-4">
@@ -140,7 +137,7 @@ const MyQuiz: React.FC = () => {
                         type="file"
                         id="uploadFile1"
                         className="hidden"
-                        onChange={handleFileUpload}
+                        onChange={handleFileInputChange}
                     />
                     <RiFolderUploadLine size={20} />
                 </label>
