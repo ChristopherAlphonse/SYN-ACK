@@ -2,13 +2,13 @@
 
 import "react-toastify/dist/ReactToastify.css";
 
-import { ToastContainer, Zoom } from "react-toastify";
 import { useEffect, useState } from "react";
+import { ToastContainer, Zoom } from "react-toastify";
 
+import dynamic from "next/dynamic";
 import Loader from "../components/loaderUI/Loader";
 import MyNavbar from "../components/MyNavbar";
 import MyQuiz from "../components/MyQuiz";
-import dynamic from "next/dynamic";
 
 const DynamicAudioPlayer = dynamic(() => import("../components/AudioPlayer"), {
     ssr: false,

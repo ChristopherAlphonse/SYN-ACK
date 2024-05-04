@@ -2,11 +2,19 @@ import withPWA from "next-pwa";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    turbo: {
+        resolveExtensions: [
+            ".mdx",
+            ".tsx",
+            ".ts",
+            ".jsx",
+            ".js",
+            ".mjs",
+            ".json",
+        ],
+    },
     reactStrictMode: true,
     swcMinify: true,
-    compiler: {
-        removeConsole: process.env.NODE_ENV !== "development",
-    },
     productionBrowserSourceMaps: false,
     eslint: {
         ignoreDuringBuilds: true,
