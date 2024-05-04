@@ -14,8 +14,8 @@ import {
 import React, { useEffect, useState } from "react";
 
 import { RiFolderUploadLine } from "react-icons/ri";
-import { toast } from "react-toastify";
 import { getMockQuizData } from "./getMockQuizData";
+import { toast } from "react-toastify";
 
 const MyQuiz: React.FC = () => {
     const [initialQuestions, setInitialQuestions] = useState(
@@ -122,8 +122,8 @@ const MyQuiz: React.FC = () => {
         }
     };
 
-    const currentQuestions =
-        loadedQuestions.length > 0 ? loadedQuestions : questions;
+    // const currentQuestions =
+    //     loadedQuestions.length > 0 ? loadedQuestions : questions;
 
     return (
         <div className="px-4">

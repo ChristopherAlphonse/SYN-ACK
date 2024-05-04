@@ -38,3 +38,8 @@ next-env.d.ts
 #lock
 pnpm-lock.yaml
 package-lock.json
+.turbo
+
+build/**
+dist/**
+.next/**
